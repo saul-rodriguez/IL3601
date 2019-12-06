@@ -1,0 +1,12 @@
+HEADER
+"PSFversion" "1.00"
+"Time Stamp" "Dec  6 00:09:57 2019"
+TYPE
+"variable" STRUCT(
+"value" FLOAT DOUBLE
+) PROP( "key" "element" )
+VALUE
+"VDS" "variable" ( 100e-3 ) PROP( )
+"VGS" "variable" ( 1 ) PROP( )
+"temp" "variable" ( 27 ) PROP( )
+END

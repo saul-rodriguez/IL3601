@@ -1,0 +1,5 @@
+
+// Library name: CHARACTERIZATION
+// Cell name: FAST_BIAS
+// View name: schematic
+I0 BIAS_NMOS WF=WF1 L=L1 NF=NF1 IDS=IDS1 VDS=VDS1

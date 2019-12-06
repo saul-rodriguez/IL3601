@@ -1,0 +1,4 @@
+pvsRuleSet( "MIMAntennaCheck"
+     (DrcRules      "../../.xkit/setup/xx018/cadence/pvs/PVS_MIMANT/XX018_xx51/xx018_xx51" "../../.xkit/setup/xx018/cadence/pvs/PVS_MIMANT/XX018_xx51/../018.rul.MIM.ANT" )
+)
+
