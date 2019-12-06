@@ -1,3 +1,4 @@
 HEADER
 "PSFversion" "1.00"
-"I0n" "BIAS_NMOS"
+"I2n I1n I0n" "BIAS_NMOS"
+"I5n I4n I3n" "BIAS_PMOS"

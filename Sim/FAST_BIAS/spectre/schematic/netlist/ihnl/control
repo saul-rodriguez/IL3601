@@ -3,6 +3,7 @@ hnlLastStopCellInfo = '(
                           ( "analogLib" "idc" "spectre" "33" "1570591052" )
                           ( "analogLib" "vdc" "spectre" "33" "1570591052" )
                           ( "analogLib" "vcvs" "spectre" "48" "1570591052" )
+                          ( "PRIMLIB" "pe" "spectre" "53" "1562065969" )
                        )
 hnlLastMaxNameLength = 1024
 hnlLastNamePrefix = "hnl_"
@@ -786,9 +787,34 @@ hnlLastConstants = '(
                       "M_LN2"
                     )
 hnlLastDesignVars = '(
+                      "WF6"
+                      "WF5"
+                      "WF4"
+                      "WF3"
+                      "WF2"
                       "WF1"
-                      "L1"
-                      "NF1"
-                      "IDS1"
+                      "VDS6"
+                      "VDS5"
+                      "VDS4"
+                      "VDS3"
+                      "VDS2"
                       "VDS1"
+                      "NF6"
+                      "NF5"
+                      "NF4"
+                      "NF3"
+                      "NF2"
+                      "NF1"
+                      "L6"
+                      "L5"
+                      "L4"
+                      "L3"
+                      "L2"
+                      "L1"
+                      "IDS6"
+                      "IDS5"
+                      "IDS4"
+                      "IDS3"
+                      "IDS2"
+                      "IDS1"
                     )

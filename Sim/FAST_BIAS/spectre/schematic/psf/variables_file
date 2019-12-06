@@ -1,6 +1,6 @@
 HEADER
 "PSFversion" "1.00"
-"Time Stamp" "Dec  6 00:07:21 2019"
+"Time Stamp" "Dec  6 13:59:13 2019"
 TYPE
 "variable" STRUCT(
 "value" FLOAT DOUBLE
@@ -11,5 +11,30 @@ VALUE
 "NF1" "variable" ( 1 ) PROP( )
 "IDS1" "variable" ( 1e-6 ) PROP( )
 "VDS1" "variable" ( 1.0 ) PROP( )
+"WF2" "variable" ( 12e-6 ) PROP( )
+"L2" "variable" ( 350e-9 ) PROP( )
+"NF2" "variable" ( 1 ) PROP( )
+"IDS2" "variable" ( 2e-6 ) PROP( )
+"VDS2" "variable" ( 1.1 ) PROP( )
+"WF3" "variable" ( 20e-6 ) PROP( )
+"L3" "variable" ( 500e-9 ) PROP( )
+"NF3" "variable" ( 1 ) PROP( )
+"IDS3" "variable" ( 10e-6 ) PROP( )
+"VDS3" "variable" ( 1.2 ) PROP( )
+"WF4" "variable" ( 10e-6 ) PROP( )
+"L4" "variable" ( 180e-9 ) PROP( )
+"NF4" "variable" ( 1 ) PROP( )
+"IDS4" "variable" ( 1e-6 ) PROP( )
+"VDS4" "variable" ( 500e-3 ) PROP( )
+"WF5" "variable" ( 5e-6 ) PROP( )
+"L5" "variable" ( 250e-9 ) PROP( )
+"NF5" "variable" ( 1 ) PROP( )
+"IDS5" "variable" ( 2e-6 ) PROP( )
+"VDS5" "variable" ( 1.0 ) PROP( )
+"WF6" "variable" ( 15e-6 ) PROP( )
+"L6" "variable" ( 350e-9 ) PROP( )
+"NF6" "variable" ( 1 ) PROP( )
+"IDS6" "variable" ( 3e-6 ) PROP( )
+"VDS6" "variable" ( 1.1 ) PROP( )
 "temp" "variable" ( 27 ) PROP( )
 END

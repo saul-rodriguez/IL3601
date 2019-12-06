@@ -1,0 +1,64 @@
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 11) on testbench [
+\o           CHARACTERIZATION:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDS1 = "10u"
+\o Setting var L = "180e-9"
+\o Setting var NF = "1"
+\o Setting var VDS = "1"
+\o Setting var WF = "1e-6"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/test_xfab1/Sim/CHARACTERIZATION/FT/adexl/results/data/Ocean.1/11/CHARACTERIZATION:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/test_xfab1/Sim/CHARACTERIZATION/FT/adexl/results/data/Ocean.1/11/CHARACTERIZATION:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 11)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec  6 14:38:36 2019
+\o End netlisting Dec  6 14:38:36 2019
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACTERIZATION:FT:1 ]
+\o           for Point ID (0 11).
+\o 
+\o Delete psf data in /home/saul/projects/test_xfab1/Sim/CHARACTERIZATION/FT/adexl/results/data/Ocean.1/11/CHARACTERIZATION:FT:1/psf.
+\o simulate...
+\o 
+\o *Error*   Error ID  = 5011
+\o *Error*   Error Msg = Simulator failed to complete the simulation.
+\o 
+\o           Error found by spectre during hierarchy flattening.
+\o Error
+\o           found by spectre during hierarchy flattening.
+\o ERROR
+\o           (SFE-1997): "input.scs" 22: I0: parameter `dc': Cannot run
+\o           the simulation because parameter 'IDS' has been used but no
+\o           value has been assigned t
+\o o it. Assign a value to the
+\o           parameter and rerun the simulation.
+\o 
+\o 
+\o 
+\o 
+\o 

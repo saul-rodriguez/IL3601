@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Dec  6 14:51:24 2019
+// Design library name: CHARACTERIZATION
+// Design cell name: FT
+// Design view name: schematic
+simulator lang=spectre
+global 0

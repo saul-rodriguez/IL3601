@@ -4,47 +4,46 @@ simulate...
 Spectre (R) Circuit Simulator
 Version 18.1.0.516.isr12 64bit -- 25 Oct 2019
 
+
 Copyright (C) 1989-2019 Cadence Design Systems, Inc. All rights reserved
         worldwide. Cadence and Spectre are registered trademarks of Cadence
         Design Systems, Inc. All others are the property of their respective
-
         holders.
+
 
 
 Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA
         Security, Inc.
 
 
-User: saul   Host: s2424   HostID: ED824314   PID: 8535
+User: saul   Host: s2424   HostID: ED824314   PID: 16171
 
-Memory  available: 5.0689 GB  physical: 67.2864 GB
+Memory  available: 4.9465 GB  physical: 67.2864 GB
 
 CPU Type: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
         Socket: Processors [Frequency] (Hyperthreaded Processor)
-        0:       0 [1217.6] ( 16 ),  1 [1681.8] ( 17 ),  2 [1200.0] ( 18 )
-                 3 [1206.0] ( 19 ),  4 [1200.0] ( 20 ),  5 [1200.1] ( 21 )
-                 6 [1211.9] ( 22 ),  7 [1270.0] ( 23 )
-        1:       8 [1200.0] ( 24 ),  9 [1238.2] ( 25 ), 10 [1200.0] ( 26 )
-                11 [1282.3] ( 27 ), 12 [1200.0] ( 28 ), 13 [1201.9] ( 29 )
-                14 [1200.0] ( 30 ), 15 [1200.1] ( 31 )
+        0:       0 [1200.0] ( 16 ),  1 [1535.2] ( 17 ),  2 [1268.3] ( 18 )
+                 3 [1283.1] ( 19 ),  4 [1200.0] ( 20 ),  5 [1200.0] ( 21 )
+                 6 [1200.3] ( 22 ),  7 [1200.0] ( 23 )
+        1:       8 [2178.2] ( 24 ),  9 [1204.0] ( 25 ), 10 [1200.0] ( 26 )
+                11 [1292.6] ( 27 ), 12 [1240.1] ( 28 ), 13 [1223.9] ( 29 )
+                14 [1200.0] ( 30 ), 15 [1200.3] ( 31 )
         
-
-System load averages (1min, 5min, 15min) : 0.0 %, 0.0 %, 0.2 %
+System load averages (1min, 5min, 15min) : 0.6 %, 0.4 %, 0.3 %
 Hyperthreading is enabled
 
 
 
-Simulating `input.scs' on s2424 at 12:07:21 AM, Fri Dec 6, 2019 (process id:
-
-        8535).
+Simulating `input.scs' on s2424 at 1:59:14 PM, Fri Dec 6, 2019 (process id:
+        16171).
 
 Current working directory:
         /home/saul/projects/test_xfab1/Sim/FAST_BIAS/spectre/schematic/netlist
 
 Command line:
     /pkg/cadence/installs/SPECTRE181/tools/bin/spectre -64 input.scs  \
-
         +escchars +log ../psf/spectre.out -format psfxl -raw ../psf  \
+
         +lqtimeout 900 -maxw 5 -maxn 5 -env ade
 
 Reading file: 
@@ -810,8 +809,8 @@ Reading file:
 
 Reading link: 
         /pkg/cadence/installs/SPECTRE181/tools.lnx86/spectre/etc/ahdl/constants.h
-Reading file: 
 
+Reading file: 
         /pkg/cadence/installs/SPECTRE181/tools.lnx86/spectre/etc/ahdl/constants.vams
 
 Reading link: 
@@ -1035,19 +1034,19 @@ Reading file:
 Reading file: 
         /pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/models/res/s_res.scs
 
-Time for NDB Parsing: CPU = 517.701 ms, elapsed = 528.969 ms.
+Time for NDB Parsing: CPU = 506.545 ms, elapsed = 516.295 ms.
 
-Time accumulated: CPU = 582.943 ms, elapsed = 528.982 ms.
+Time accumulated: CPU = 574.785 ms, elapsed = 516.308 ms.
 
-Peak resident memory used = 68.4 Mbytes.
+Peak resident memory used = 70.3 Mbytes.
 
 
 
-Time for Elaboration: CPU = 32.618 ms, elapsed = 32.6178 ms.
+Time for Elaboration: CPU = 32.029 ms, elapsed = 32.0301 ms.
 
-Time accumulated: CPU = 615.722 ms, elapsed = 561.761 ms.
+Time accumulated: CPU = 606.981 ms, elapsed = 548.504 ms.
 
-Peak resident memory used = 77.5 Mbytes.
+Peak resident memory used = 79.6 Mbytes.
 
 
 
@@ -1062,10 +1061,12 @@ Warning from spectre during hierarchy flattening.
 
 
 
-Time for EDB Visiting: CPU = 1.107 ms, elapsed = 1.10698 ms.
-Time accumulated: CPU = 616.998 ms, elapsed = 563.037 ms.
+Time for EDB Visiting: CPU = 1.571 ms, elapsed = 1.57213 ms.
 
-Peak resident memory used = 78.2 Mbytes.
+Time accumulated: CPU = 608.71 ms, elapsed = 550.232 ms.
+
+Peak resident memory used = 80.3 Mbytes.
+
 
 
 
@@ -1118,15 +1119,15 @@ Scoped user options:
 
 Circuit inventory:
 
-              nodes 3
+              nodes 21
 
-            bsim3v3 1     
+            bsim3v3 6     
 
-            isource 1     
+            isource 6     
 
-               vcvs 1     
+               vcvs 6     
 
-            vsource 1     
+            vsource 9     
 
 
 Analysis and control statement inventory:
@@ -1146,12 +1147,11 @@ Output statements:
 
 
 
-Time for parsing: CPU = 3.671 ms, elapsed = 7.98297 ms.
+Time for parsing: CPU = 3.757 ms, elapsed = 9.88507 ms.
 
-Time accumulated: CPU = 620.799 ms, elapsed = 571.15 ms.
+Time accumulated: CPU = 612.6 ms, elapsed = 560.249 ms.
 
-Peak resident memory used = 79.7 Mbytes.
-
+Peak resident memory used = 82 Mbytes.
 
 
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -1162,7 +1162,6 @@ Pre-Simulation Summary
 
 
 ******************
-
 DC Analysis `dcOp'
 ******************
 
@@ -1186,23 +1185,22 @@ Important parameter values:
     gmindc = 1 pS
 
 
-
 Maximum value achieved for any signal of each quantity: 
 
-V: V(I0.D) = 1.001 V
+V: V(I3.S) = 1.8 V
 
-I: I(I0.V1:p) = 0 A
+I: I(I4.V0:p) = 421.7e-24 A
 
-Convergence achieved in 6 iterations.
+Convergence achieved in 9 iterations.
 
-DC simulation time: CPU = 3.496 ms, elapsed = 6.95896 ms.
+DC simulation time: CPU = 2.766 ms, elapsed = 5.00393 ms.
 
-Total time required for dc analysis `dcOp': CPU = 3.586 ms, elapsed = 7.04408
+Total time required for dc analysis `dcOp': CPU = 2.818 ms, elapsed = 5.05209
         ms.
 
-Time accumulated: CPU = 635.462 ms, elapsed = 589.295 ms.
+Time accumulated: CPU = 621.634 ms, elapsed = 571.518 ms.
 
-Peak resident memory used = 81 Mbytes.
+Peak resident memory used = 83.3 Mbytes.
 
 
 
@@ -1242,16 +1240,16 @@ subckts: writing subcircuits to rawfile.
 Opening the PSFASCII file ../psf/subckts.info.subckts ...
 
 
-Aggregate audit (12:07:22 AM, Fri Dec 6, 2019):
+Aggregate audit (1:59:14 PM, Fri Dec 6, 2019):
 
-Time used: CPU = 689 ms, elapsed = 689 ms, util. = 100%.
+Time used: CPU = 655 ms, elapsed = 655 ms, util. = 100%.
 
-Time spent in licensing: elapsed = 157 ms, percentage of total = 22.8%.
+Time spent in licensing: elapsed = 148 ms, percentage of total = 22.6%.
 
-Peak memory used = 82.5 Mbytes.
+Peak memory used = 84.7 Mbytes.
 
-Simulation started at: 12:07:21 AM, Fri Dec 6, 2019, ended at: 12:07:22 AM, Fri
-        Dec 6, 2019, with elapsed time (wall clock): 689 ms.
+Simulation started at: 1:59:14 PM, Fri Dec 6, 2019, ended at: 1:59:14 PM, Fri
+        Dec 6, 2019, with elapsed time (wall clock): 655 ms.
 
 spectre completes with 0 errors, 1 warning, and 1 notice.
 

@@ -14,7 +14,9 @@
 ( model
 ( "CHARACTERIZATION/BIAS_NMOS/schematic" "BIAS_NMOS" )
 ( "CHARACTERIZATION/FAST_BIAS/schematic" "FAST_BIAS" )
+( "CHARACTERIZATION/BIAS_PMOS/schematic" "BIAS_PMOS" )
  )
+( "BIAS_PMOS" "ihnl/cds2/map" )
 ( "FAST_BIAS" "ihnl/cds1/map" )
 ( "BIAS_NMOS" "ihnl/cds0/map" )
  )

@@ -1,0 +1,6 @@
+
+// Library name: CHARACTERIZATION
+// Cell name: BIAS_PMOS
+// View name: schematic
+subckt BIAS_PMOS
+parameters WF L NF IDS VDS
