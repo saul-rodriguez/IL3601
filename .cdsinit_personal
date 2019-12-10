@@ -13,7 +13,7 @@
 ;* ******************************************************************************
 
 
-;printf(" --> LOAD USER CUSTOMIZATION\n")
+printf(" --> LOAD USER CUSTOMIZATION\n")
 
 ;#####################################################################
 ;# Please add any customisations here....
@@ -228,6 +228,11 @@ else
   printf("                             setenv CUSTOM_SKILL_PATH /path/to/my/skill/LoadMySkills.il\n")
 )
 
+;############################
+;# Load custom key bindigs  #
+;#############################
+
+load "def_bindings.il"
 
 ;############################################################################
 ;#                                           
@@ -235,5 +240,5 @@ else
 ;#
 ;#############################################################################
 
-;printf(" --> END OF USER CUSTOMIZATION\n")
+printf(" --> END OF USER CUSTOMIZATION\n")
 ;END OF THE USER CUSTOMIZATION FILE

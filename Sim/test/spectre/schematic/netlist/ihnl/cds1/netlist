@@ -1,0 +1,7 @@
+
+// Library name: CHARACTERIZATION
+// Cell name: test
+// View name: schematic
+I3 (net4 net1 0) MOS_AC gm=gm1 rds=rds1 cgs=cgs1 cgd=cgd1 cdb=cdb1 \
+        cds=cds1
+V0 (net1 0) vsource type=sine

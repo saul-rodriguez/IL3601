@@ -1,0 +1,37 @@
+HEADER
+"PSFversion" "1.00"
+"Run Generator" "drlRun rev. 1.0"
+"Run Time Stamp" "Dec  9 21:41:03 2019"
+"date" "Dec  9 21:41:03 2019"
+"simulator" "spectre"
+"netlistDir" "../netlist"
+"axlParamFlag" "true"
+ "externalSweepVariableCount" 1
+TYPE
+"runObject" STRUCT(
+"logName" ARRAY( * ) STRING *
+"parent" STRING *
+"sweepVariable" ARRAY( * ) STRING *
+) PROP( "key" "runObject" )
+VALUE
+"Root" "runObject" (
+("")
+""
+("WF")
+)
+"WF=1e-05" "runObject" (
+(
+"../../../1/CHARACTERIZATION:NOISE_NMOS:2/psf/logFile"
+"../../../1/CHARACTERIZATION:NOISE_NMOS:2/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "nom"
+ "#pointID" 1
+"netlistDir" "../../../1/CHARACTERIZATION:NOISE_NMOS:2/netlist"
+"dataDir" "../../../1/CHARACTERIZATION:NOISE_NMOS:2"
+ "WF" 1.000000e-05
+)
+
+END

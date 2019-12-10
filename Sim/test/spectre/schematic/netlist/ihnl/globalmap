@@ -1,0 +1,16 @@
+CADENCE IHNL11140
+$model
+CHARACTERIZATION/test/schematic test
+CHARACTERIZATION/MOS_AC/schematic MOS_AC
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+cgs1 cgs1
+gm1 gm1
+cdb1 cdb1
+cgd1 cgd1
+rds1 rds1
+cds1 cds1
+$endparam

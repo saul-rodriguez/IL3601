@@ -1,0 +1,6 @@
+
+// Library name: CHARACTERIZATION
+// Cell name: MOS_AC
+// View name: schematic
+subckt MOS_AC D G S
+parameters gm rds cgs cgd cdb cds
