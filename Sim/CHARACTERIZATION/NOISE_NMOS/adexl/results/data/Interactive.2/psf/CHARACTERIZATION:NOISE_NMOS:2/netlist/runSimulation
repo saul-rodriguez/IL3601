@@ -1,1 +1,0 @@
-spectre  input.scs  +escchars +log ../../simulation/NOISE_NMOS/spectre/schematic/psf/spectre.out  -format psfxl -raw ../../simulation/NOISE_NMOS/spectre/schematic/psf   +lqtimeout 900 -maxw 5 -maxn 5 -env ade   

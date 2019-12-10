@@ -1,36 +1,36 @@
-\# Program start time:     UTC 2019.12.06 13:23:50.820
-\# Local time: CET (UTC+01:00) 2019.12.06 14:23:50.820
+\# Program start time:     UTC 2019.12.10 05:46:09.044
+\# Local time: CET (UTC+01:00) 2019.12.10 06:46:09.044
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 10/08/2019 20:07 (sjfhw316) $
 \o Hierarchy:		/pkg/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.7  (64-bit addresses)
-\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso4778 -mpshost s2424 -davinciService DaVinciService_4778_1575638514 -log /home/saul/projects/test_xfab1/logs_saul/logs0/Job7.log -licenseLockFileName /home/saul/projects/test_xfab1/.tmp_saul/.s2424_4778 -interactiveA -interactiveE -interactiveRTT -nostdin -nograph -axlChildIdFlag 7
+\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso5774 -mpshost s2424 -davinciService DaVinciService_5774_1575956000 -log /home/saul/projects/test_xfab1/logs_saul/logs0/Job7.log -licenseLockFileName /home/saul/projects/test_xfab1/.tmp_saul/.s2424_5774 -interactiveA -interactiveE -interactiveRTT -nostdin -nograph -axlChildIdFlag 7
 \# Host name (type):	s2424 (x86_64)
 \# Operating system:	Linux 3.10.0-1062.4.3.el7.x86_64 #1 SMP Wed Nov 13 23:58:53 UTC 2019
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
 \# X display name (WxH):	:95 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			RealVNC Ltd (VNC nograph server, PID 18285)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 9281)
 \# Depth of Visual (Root):	16 (16)
 \# Number of Planes Used:	16
 \# X version:		11.0 (vendor release 3370)
-\# X resource pool:	base 0x2800000, mask 0x3fffff (4194303), shift 0
+\# X resource pool:	base 0x1000000, mask 0x3fffff (4194303), shift 0
 \# 			current id 0x0, current max 0x3ffffa (4194298)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        538 MB
-\# Available memory:	     35,984 MB
+\# Initial sbrk value:	        515 MB
+\# Available memory:	     36,156 MB
 \# System memory:	     96,361 MB
-\# Maximum memory size:	     95,980 MB
-\# Max mem available:	     36,141 MB
-\# Initial memory used:	        157 MB
+\# Maximum memory size:	     95,988 MB
+\# Max mem available:	     36,298 MB
+\# Initial memory used:	        142 MB
 \#        process size:	      1,378 MB
 \# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 32.00/32.00
 \# Qt version:		5.9.1
 \# Window Manager:	other
 \# User Name:		saul
 \o Working Directory:	s2424:/home/saul/projects/test_xfab1
-\# Process Id:		20605
+\# Process Id:		9497
 \o 
 \o COPYRIGHT (C) 1992-2019  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2019  UNIX SYSTEMS Laboratories INC.,
@@ -67,17 +67,17 @@
 \o Loading caa.cxt 
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
-\# Memory report: using         283 MB, process size 1,584 MB at UTC 2019.12.06 13:23:52.129
+\# Memory report: using         269 MB, process size 1,584 MB at UTC 2019.12.10 05:46:12.292
 \o Loading adexl.cxt 
 \o *Info*    Exporting services from client ... 
 \o 
 \o Loading cli.cxt 
 \o Loading cle.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso4778, host=s2424). ICRP is turned on. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso5774, host=s2424). ICRP is turned on. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 20605 within 90 seconds is being processed...
-\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
-\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 9497 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 1 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 1 seconds.
 \o Loading .cdsinit for the XH018 X-Fab XKit.
 \o     LOAD xh018_1151 SPECIFIC CALL-BACK ROUTINES
 \o     LOAD ALL AVAILABLE P-CELL FUNCTIONS
@@ -102,7 +102,7 @@
 \o Loading devCheck.cxt 
 \o Loading relXpert.cxt 
 \o Loading vdsil.cxt 
-\# Memory report: using         408 MB, process size 1,703 MB at UTC 2019.12.06 13:23:54.033
+\# Memory report: using         395 MB, process size 1,703 MB at UTC 2019.12.10 05:46:14.086
 \o Loading hspiceD.cxt 
 \o Loading spectreinl.cxt 
 \o Loading UltraSim.cxt 
@@ -120,67 +120,24 @@
 \a _treeSetOpcGUI(t)
 \r t
 \o Loading vqp.cxt 
+\o Loading simui.cxt 
 \o 
 \o 
 \o *Info*    Configuring the session ...
 \o 
 \o 	Library      = CHARACTERIZATION
-\o 	Cell         = FT
+\o 	Cell         = NOISE_NMOS
 \o 	View         = schematic
+\o 	Netlist  	  = nil
 \o 	Simulator    = spectre
 \o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = CHARACTERIZATION:FT:1_state1_Interactive.0
-\o 	Results DB   = /home/saul/projects/test_xfab1/CHARACTERIZATION/FT/adexl/results/data/Interactive.0.rdb
-\o 	Results Dir  = /home/saul/projects/test_xfab1/Sim/CHARACTERIZATION/FT/adexl/results/data/Interactive.0/21/CHARACTERIZATION:FT:1
-\o 	Results Loc  = /home/saul/projects/test_xfab1/Sim/CHARACTERIZATION/FT/adexl/results/data
-\o 	Project Dir  = /home/saul/projects/test_xfab1/Sim
-\o 	Setup DB loc = /home/saul/projects/test_xfab1/CHARACTERIZATION/FT/adexl
-\o 	File Encoding = 0
+\o 	State Name   = CHARACTERIZATION:NOISE_NMOS:2_CHARACTERIZATION:NOISE_NMOS:2_Dec_10_06_46_00_2019_Ocean.4
+\o 	Results DB   = /home/saul/projects/test_xfab1/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.4.rdb
+\o 	Setup DB loc = /home/saul/projects/test_xfab1/CHARACTERIZATION/NOISE_NMOS/adexl
 \o 
 \o 
-\o Loading simui.cxt 
 \o INFO (TECH-150003): The technology database "analogLib" has been automatically
 \o updated from revision 226610(DM 0) to revision 227612(DM 3) in virtual memory.
-\o 
-\o *Info*    The auto suspension is disabled.
-\o 
-\o     LOAD GENERIC "X-KIT" SKILL CONTEXT "./.xkit/setup/x_all/cadence/xenv/skill/context6/xkit.cxt" 
-\o  - Menu "XKit Utilities" installed to CIW.
-\o     LOAD ".cdsinit_personal" FILE FROM THE WORKING DIRECTORY.
-\o     INFO: To customize this setup, please use the following environment variables:
-\o           CUSTOM_SCRIPT_PATH - should point to the master shell or perl script
-\o                              e.g.:
-\o                              setenv CUSTOM_SCRIPT_PATH /path/to/my/script/LoadMyScripts.csh
-\o           CUSTOM_SKILL_PATH - should point to your master skill load file
-\o                              e.g.:
-\o                              setenv CUSTOM_SKILL_PATH /path/to/my/skill/LoadMySkills.il
-\o  -> END LOAD ".cdsinit" FILE
-\# Available memory:         33,346 MB at UTC 2019.12.06 13:24:01.160
-\# Memory report: Maximum memory size now 33,799 MB at UTC 2019.12.06 13:24:01.160
-\# Thread usage report: 33 active threads, active load 1.00 at UTC 2019.12.06 13:24:01.160
-\o Simulation design variables differ from those on the cellView,
-\o they have been saved in the file "/tmp/saved-design-variables".
-\o To save future changes, copy variables to cellView before exiting.
-\o 
-\o 
-\o *Info*    Configuring the session ...
-\o 
-\o 	Library      = CHARACTERIZATION
-\o 	Cell         = FT
-\o 	View         = schematic
-\o 	Simulator    = spectre
-\o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = CHARACTERIZATION:FT:1_state1_Interactive.1
-\o 	Results DB   = /home/saul/projects/test_xfab1/CHARACTERIZATION/FT/adexl/results/data/Interactive.1.rdb
-\o 	Results Dir  = /home/saul/projects/test_xfab1/Sim/CHARACTERIZATION/FT/adexl/results/data/Interactive.1/1/CHARACTERIZATION:FT:1
-\o 	Results Loc  = /home/saul/projects/test_xfab1/Sim/CHARACTERIZATION/FT/adexl/results/data
-\o 	Project Dir  = /home/saul/projects/test_xfab1/Sim
-\o 	Setup DB loc = /home/saul/projects/test_xfab1/CHARACTERIZATION/FT/adexl
-\o 	File Encoding = 0
-\o 
-\o 
-\o variable oasisVariableValue redefined
-\o variable persistNewList redefined
 \o 
 \o *Info*    The auto suspension is disabled.
 \o 
@@ -190,98 +147,36 @@
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (1 12) on testbench [
-\o           CHARACTERIZATION:FT:1 ].
+\o *Info*    Run start for Point ID (0 1) on testbench [
+\o           CHARACTERIZATION:NOISE_NMOS:2 ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var IDS1 = "12.58925412u"
-\o Setting var L = "0.18u"
+\o Setting var IDS = "10e-6"
+\o Setting var L = "1e-6"
 \o Setting var NF = "1"
-\o Setting var VDS1 = "1"
-\o Setting var WF = "10u"
+\o Setting var VDS = "1"
+\o Setting var WF = "10e-6"
 \o Setting temp(T) = 27
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/projects/test_xfab1/Sim/CHARACTERIZATION/FT/adexl/results/data/Interactive.1/12/CHARACTERIZATION:FT:1/netlist
+\o           /home/saul/Sim/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.4/1/CHARACTERIZATION:NOISE_NMOS:2/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/projects/test_xfab1/Sim/CHARACTERIZATION/FT/adexl/results/data/Interactive.1/12/CHARACTERIZATION:FT:1
+\o           /home/saul/Sim/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.4/1/CHARACTERIZATION:NOISE_NMOS:2
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (1 12)
+\o *Info*    Creating Netlist for Point ID (0 1)
 \o 
 \o generate netlist...
 \o Loading seCore.cxt 
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Dec  6 14:24:35 2019
-\o End netlisting Dec  6 14:24:35 2019
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   1.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ CHARACTERIZATION:FT:1 ]
-\o           for Point ID (1 12).
-\o 
-\o Delete psf data in /home/saul/projects/test_xfab1/Sim/CHARACTERIZATION/FT/adexl/results/data/Interactive.1/12/CHARACTERIZATION:FT:1/psf.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\o simulate...
-\o To view the simulator output, right-click on the test name, result 
-\o name, or any value in the "Results" tab of the Outputs section and 
-\o choose "Output Log" menu option.
-\o Loading paraplot.cxt 
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (1 12) on testbench [
-\o           CHARACTERIZATION:FT:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (1 17) on testbench [
-\o           CHARACTERIZATION:FT:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS1 = "39.81071706u"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/test_xfab1/Sim/CHARACTERIZATION/FT/adexl/results/data/Interactive.1/17/CHARACTERIZATION:FT:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/test_xfab1/Sim/CHARACTERIZATION/FT/adexl/results/data/Interactive.1/17/CHARACTERIZATION:FT:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (1 17)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Dec  6 14:24:36 2019
-\o End netlisting Dec  6 14:24:36 2019
+\o Begin Incremental Netlisting Dec 10 06:46:15 2019
+\o End netlisting Dec 10 06:46:15 2019
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -289,94 +184,36 @@
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [ CHARACTERIZATION:FT:1 ]
-\o           for Point ID (1 17).
+\o *Info*    Running simulation on testbench [
+\o           CHARACTERIZATION:NOISE_NMOS:2 ] for Point ID (0 1).
 \o 
-\o Delete psf data in /home/saul/projects/test_xfab1/Sim/CHARACTERIZATION/FT/adexl/results/data/Interactive.1/17/CHARACTERIZATION:FT:1/psf.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
+\o Delete psf data in /home/saul/Sim/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.4/1/CHARACTERIZATION:NOISE_NMOS:2/psf.
 \o simulate...
-\o To view the simulator output, right-click on the test name, result 
-\o name, or any value in the "Results" tab of the Outputs section and 
-\o choose "Output Log" menu option.
+\o     LOAD GENERIC "X-KIT" SKILL CONTEXT "./.xkit/setup/x_all/cadence/xenv/skill/context6/xkit.cxt" 
+\o  - Menu "XKit Utilities" installed to CIW.
+\o     LOAD ".cdsinit_personal" FILE FROM THE WORKING DIRECTORY.
+\o  --> LOAD USER CUSTOMIZATION
+\o     INFO: To customize this setup, please use the following environment variables:
+\o           CUSTOM_SCRIPT_PATH - should point to the master shell or perl script
+\o                              e.g.:
+\o                              setenv CUSTOM_SCRIPT_PATH /path/to/my/script/LoadMyScripts.csh
+\o           CUSTOM_SKILL_PATH - should point to your master skill load file
+\o                              e.g.:
+\o                              setenv CUSTOM_SKILL_PATH /path/to/my/skill/LoadMySkills.il
+\o  --> END OF USER CUSTOMIZATION
+\o  -> END LOAD ".cdsinit" FILE
 \o INFO (ADE-3071): Simulation completed successfully.
 \o reading simulation data...
 \o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (1 17) on testbench [
-\o           CHARACTERIZATION:FT:1 ].
+\o *Info*    Run complete for Point ID (0 1) on testbench [
+\o           CHARACTERIZATION:NOISE_NMOS:2 ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (1 27) on testbench [
-\o           CHARACTERIZATION:FT:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var IDS1 = "398.1071706u"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/projects/test_xfab1/Sim/CHARACTERIZATION/FT/adexl/results/data/Interactive.1/27/CHARACTERIZATION:FT:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/projects/test_xfab1/Sim/CHARACTERIZATION/FT/adexl/results/data/Interactive.1/27/CHARACTERIZATION:FT:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (1 27)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Dec  6 14:24:37 2019
-\o End netlisting Dec  6 14:24:37 2019
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [ CHARACTERIZATION:FT:1 ]
-\o           for Point ID (1 27).
-\o 
-\o Delete psf data in /home/saul/projects/test_xfab1/Sim/CHARACTERIZATION/FT/adexl/results/data/Interactive.1/27/CHARACTERIZATION:FT:1/psf.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\o simulate...
-\o To view the simulator output, right-click on the test name, result 
-\o name, or any value in the "Results" tab of the Outputs section and 
-\o choose "Output Log" menu option.
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (1 27) on testbench [
-\o           CHARACTERIZATION:FT:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o Simulation design variables differ from those on the cellView,
-\o they have been saved in the file "/tmp/saved-design-variables".
-\o To save future changes, copy variables to cellView before exiting.
-\# Memory report: on exit            465 MB, process size 1,782 MB at UTC 2019.12.06 13:29:43.188
-\# Memory report: peak usage         465 MB, process size 1,782 MB
+\# Memory report: on exit            442 MB, process size 1,777 MB at UTC 2019.12.10 05:46:19.937
+\# Memory report: peak usage         442 MB, process size 1,777 MB

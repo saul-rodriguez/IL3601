@@ -1,1 +1,0 @@
-spectre  input.scs  +escchars +log ../psf/spectre.out  -format psfxl -raw ../psf   ++aps +lqtimeout 900 -maxw 5 -maxn 5 -env ade  -ahdllibdir /home/saul/projects/test_xfab1/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.1/sharedData/Job47/ahdl/input.ahdlSimDB +logstatus  

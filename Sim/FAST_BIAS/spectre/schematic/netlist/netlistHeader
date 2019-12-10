@@ -1,7 +1,0 @@
-// Generated for: spectre
-// Generated on: Dec  6 13:34:38 2019
-// Design library name: CHARACTERIZATION
-// Design cell name: FAST_BIAS
-// Design view name: schematic
-simulator lang=spectre
-global 0

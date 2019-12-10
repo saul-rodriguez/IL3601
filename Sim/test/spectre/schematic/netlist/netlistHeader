@@ -1,7 +1,0 @@
-// Generated for: spectre
-// Generated on: Dec  9 08:27:32 2019
-// Design library name: CHARACTERIZATION
-// Design cell name: test
-// Design view name: schematic
-simulator lang=spectre
-global 0

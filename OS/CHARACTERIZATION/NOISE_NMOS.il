@@ -22,14 +22,19 @@ modelFile(
     '("/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/photo.scs" "tm")
     '("/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/res.scs" "tm")
 )
+
+load("OS/CHARACTERIZATION/global.il")
+FLOW = 0.1 ; Lower frequency 
+FHIGH = 200.0 ; Higher frequency
+
 analysis('dc ?saveOppoint t  )
-analysis('noise ?start "0.01"  ?stop "100G"  ?dec "10"  
+analysis('noise ?start FLOW  ?stop FHIGH  ?dec "10"  
 		?oprobe "/IPRB1"  ?iprobe "/V2"  )
-desVar(	  "IDS" 10u	)
-desVar(	  "L" 1u	)
-desVar(	  "NF" 1	)
-desVar(	  "VDS" 1	)
-desVar(	  "WF" 10u	)
+desVar(	  "IDS" IDS1	)
+desVar(	  "L" L1)
+desVar(	  "NF" NF1	)
+desVar(	  "VDS" VDS1	)
+desVar(	  "WF" WF1	)
 envOption(
 	'firstRun  t 
 	'analysisOrder  list("dc" "noise" "pz" "dcmatch" "stb" "tran" "envlp" "ac" "lf" "xf" "sp" "pss" "pac" "pstb" "pnoise" "pxf" "psp" "qpss" "qpac" "qpnoise" "qpxf" "qpsp" "hb" "hbac" "hbstb" "hbnoise" "hbxf" "sens" "acmatch") 
@@ -53,13 +58,13 @@ modelFile(
     '("/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/res.scs" "tm")
 )
 analysis('dc ?saveOppoint t  )
-analysis('noise ?start "0.01"  ?stop "100G"  ?dec "10"  
+analysis('noise ?start FLOW  ?stop FHIGH  ?dec "10"  
 		?oprobe "/IPRB0"  ?iprobe "/I6"  )
-desVar(	  "IDS" 10u	)
-desVar(	  "L" 1u	)
-desVar(	  "NF" 1	)
-desVar(	  "VDS" 1	)
-desVar(	  "WF" 10u	)
+desVar(	  "IDS" IDS1	)
+desVar(	  "L" L1)
+desVar(	  "NF" NF1	)
+desVar(	  "VDS" VDS1	)
+desVar(	  "WF" WF1	)
 envOption(
 	'firstRun  t 
 	'analysisOrder  list("dc" "noise" "pz" "dcmatch" "stb" "tran" "envlp" "ac" "lf" "xf" "sp" "pss" "pac" "pstb" "pnoise" "pxf" "psp" "qpss" "qpac" "qpnoise" "qpxf" "qpsp" "hb" "hbac" "hbstb" "hbnoise" "hbxf" "sens" "acmatch") 
@@ -69,11 +74,11 @@ ocnxlOutputExpr( "getData(\"in\" ?result \"noise\")" ?name "input noise; A / sqr
 ocnxlEndTest() ; "CHARACTERIZATION:NOISE_NMOS:2"
 
 ;====================== Sweeps setup ===========================================
-ocnxlSweepVar("IDS" "10u")
-ocnxlSweepVar("L" "1u")
-ocnxlSweepVar("NF" "1")
-ocnxlSweepVar("VDS" "1")
-ocnxlSweepVar("WF" "10u")
+ocnxlSweepVar("IDS" "IDS1")
+ocnxlSweepVar("L" "L1")
+ocnxlSweepVar("NF" "NF1")
+ocnxlSweepVar("VDS" "VDS1")
+ocnxlSweepVar("WF" "WF1")
 
 ;====================== Model Group setup ==========================================
 
@@ -90,7 +95,7 @@ ocnxlJobSetup( '(
 	"jobruntype" "ICRP"
 	"estimatememoryvalue" ""
 	"lingertimeout" "300"
-	"maxjobs" "1"
+	"maxjobs" "2"
 	"name" "ADE XL Default"
 	"preemptivestart" "1"
 	"reconfigureimmediately" "1"
@@ -113,14 +118,70 @@ ocnxlRun( ?mode 'sweepsAndCorners ?nominalCornerEnabled t ?allCornersEnabled t ?
 ocnxlOutputSummary(?exprSummary t ?specSummary t ?detailed t ?wave t)
 ocnxlOpenResults()
 
+;*********************************
+;* Input refferred noise current *
+;*********************************
+ocnxlOpenResults(?testName "CHARACTERIZATION:NOISE_NMOS:2")
+selectResults('noise)
+
+in_in = getData("in" ?result "noise")
+in_in_dB = dB20(in_in)
+
+;********************************
+;* Input referred noise voltage *
+;********************************
 ocnxlOpenResults(?testName "CHARACTERIZATION:NOISE_NMOS:1")
 selectResults('noise)
 
 vn_in = getData("in" ?result "noise")
 vn_in_dB = dB20(vn_in)
 
+vn_out = getData("out" ?result "noise")
+vn_out_dB = dB20(vn_out)
+
 ;====================== End XL Mode command ===================================
 ocnxlEndXLMode()
+
+;*******************
+;* Present results *
+;*******************
+
+;*******************
+;*  Noise Summary  *
+;*******************
+noiseSummary( 'integrated ?result "noise" ?noiseUnit "V" ?from FLOW ?to FHIGH )
+
+vn_in_2 = pow(vn_in,2)
+NBand = FHIGH - FLOW
+IN_Noise_2 = integ( vn_in_2, FLOW, FHIGH)
+IN_Noise = sqrt(IN_Noise_2)
+IN_Noise_val = value(IN_Noise WF1) ;convert wave to val
+
+IN_Noise_2_aver = IN_Noise_2/NBand
+IN_Noise_aver = sqrt(IN_Noise_2_aver)
+IN_Noise_aver_val = value(IN_Noise_aver WF1) ; convert wave to val
+
+printf("INPUT REFERRED NOISE VOLTAGE = %4.2e V(Hz) \n" IN_Noise_val)
+
+printf("AVERAGE INPUT REFERRED NOISE VOLTAGE = %4.2e V/sqrt(Hz) \n" IN_Noise_aver_val)
+printf("From: %4.2eHz to %4.2eHz" FLOW FHIGH)
+
+clearAll()
+
+newWindow()
+plot( in_in ?expr '( "Input noise I NMOS"))
+addSubwindow()
+plot( in_in_dB ?expr '( "Input noise I NMOS dB"))
+
+newWindow()
+plot( vn_in ?expr '( "input noise V NMOS"))
+
+addSubwindow()
+plot( vn_in_dB ?expr '( "input noise V dB NMOS"))
+
+addSubwindow()
+plot( vn_out_dB ?expr '( "Output noise I dB NMOS"))
+
 
 
 
