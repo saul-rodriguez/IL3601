@@ -24,8 +24,8 @@ modelFile(
 )
 
 load("OS/CHARACTERIZATION/global.il")
-FLOW = 0.1 ; Lower frequency 
-FHIGH = 200.0 ; Higher frequency
+FLOW = 100.0 ; Lower frequency 
+FHIGH = 300.0e6 ; Higher frequency
 
 analysis('dc ?saveOppoint t  )
 analysis('noise ?start FLOW  ?stop FHIGH  ?dec "10"  

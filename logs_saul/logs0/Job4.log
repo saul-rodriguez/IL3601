@@ -1,36 +1,36 @@
-\# Program start time:     UTC 2019.12.10 05:45:12.092
-\# Local time: CET (UTC+01:00) 2019.12.10 06:45:12.092
+\# Program start time:     UTC 2020.01.10 07:42:22.441
+\# Local time: CET (UTC+01:00) 2020.01.10 08:42:22.441
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 10/08/2019 20:07 (sjfhw316) $
 \o Hierarchy:		/pkg/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.7  (64-bit addresses)
-\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso5774 -mpshost s2424 -davinciService DaVinciService_5774_1575956000 -log /home/saul/projects/test_xfab1/logs_saul/logs0/Job4.log -licenseLockFileName /home/saul/projects/test_xfab1/.tmp_saul/.s2424_5774 -interactiveA -interactiveE -interactiveRTT -nostdin -nograph -axlChildIdFlag 4
+\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso20921 -mpshost s2424 -davinciService DaVinciService_20921_1578642063 -log /home/saul/projects/test_xfab1/logs_saul/logs0/Job4.log -licenseLockFileName /home/saul/projects/test_xfab1/.tmp_saul/.s2424_20921 -interactiveA -interactiveE -interactiveRTT -nostdin -nograph -axlChildIdFlag 4
 \# Host name (type):	s2424 (x86_64)
 \# Operating system:	Linux 3.10.0-1062.4.3.el7.x86_64 #1 SMP Wed Nov 13 23:58:53 UTC 2019
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
 \# X display name (WxH):	:95 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			RealVNC Ltd (VNC nograph server, PID 8877)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 25956)
 \# Depth of Visual (Root):	16 (16)
 \# Number of Planes Used:	16
 \# X version:		11.0 (vendor release 3370)
-\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# X resource pool:	base 0x1000000, mask 0x3fffff (4194303), shift 0
 \# 			current id 0x0, current max 0x3ffffa (4194298)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        522 MB
-\# Available memory:	     36,227 MB
+\# Initial sbrk value:	        529 MB
+\# Available memory:	     39,792 MB
 \# System memory:	     96,361 MB
-\# Maximum memory size:	     95,983 MB
-\# Max mem available:	     36,370 MB
-\# Initial memory used:	        144 MB
+\# Maximum memory size:	     95,971 MB
+\# Max mem available:	     39,930 MB
+\# Initial memory used:	        139 MB
 \#        process size:	      1,378 MB
 \# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 32.00/32.00
 \# Qt version:		5.9.1
 \# Window Manager:	other
 \# User Name:		saul
 \o Working Directory:	s2424:/home/saul/projects/test_xfab1
-\# Process Id:		8912
+\# Process Id:		26248
 \o 
 \o COPYRIGHT (C) 1992-2019  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2019  UNIX SYSTEMS Laboratories INC.,
@@ -68,16 +68,16 @@
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
 \o Loading adexl.cxt 
+\# Memory report: using         283 MB, process size 1,599 MB at UTC 2020.01.10 07:42:26.042
 \o *Info*    Exporting services from client ... 
 \o 
 \o Loading cli.cxt 
 \o Loading cle.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso5774, host=s2424). ICRP is turned on. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso20921, host=s2424). ICRP is turned on. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 8912 within 90 seconds is being processed...
-\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
-\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\# Memory report: using         319 MB, process size 1,626 MB at UTC 2019.12.10 05:45:14.844
+\o INFO (ELI-00304) The registration of the child 26248 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 1 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 2 seconds.
 \o Loading .cdsinit for the XH018 X-Fab XKit.
 \o     LOAD xh018_1151 SPECIFIC CALL-BACK ROUTINES
 \o     LOAD ALL AVAILABLE P-CELL FUNCTIONS
@@ -105,6 +105,7 @@
 \o Loading hspiceD.cxt 
 \o Loading spectreinl.cxt 
 \o Loading UltraSim.cxt 
+\# Memory report: using         394 MB, process size 1,707 MB at UTC 2020.01.10 07:42:28.034
 \o Loading msgHandler.cxt 
 \o Loading AMSOSS.cxt 
 \o Loading AMS.cxt 
@@ -118,6 +119,28 @@
 \p > 
 \a _treeSetOpcGUI(t)
 \r t
+\o Loading vqp.cxt 
+\o Loading simui.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = CHARACTERIZATION
+\o 	Cell         = NOISE_NMOS
+\o 	View         = schematic
+\o 	Netlist  	  = nil
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = CHARACTERIZATION:NOISE_NMOS:1_CHARACTERIZATION:NOISE_NMOS:1_Jan_10_08_42_13_2020_Ocean.18
+\o 	Results DB   = /home/saul/projects/test_xfab1/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.18.rdb
+\o 	Setup DB loc = /home/saul/projects/test_xfab1/CHARACTERIZATION/NOISE_NMOS/adexl
+\o 
+\o 
+\o INFO (TECH-150003): The technology database "analogLib" has been automatically
+\o updated from revision 226610(DM 0) to revision 227612(DM 3) in virtual memory.
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
 \o     LOAD GENERIC "X-KIT" SKILL CONTEXT "./.xkit/setup/x_all/cadence/xenv/skill/context6/xkit.cxt" 
 \o  - Menu "XKit Utilities" installed to CIW.
 \o     LOAD ".cdsinit_personal" FILE FROM THE WORKING DIRECTORY.
@@ -131,14 +154,70 @@
 \o                              setenv CUSTOM_SKILL_PATH /path/to/my/skill/LoadMySkills.il
 \o  --> END OF USER CUSTOMIZATION
 \o  -> END LOAD ".cdsinit" FILE
-\# Available memory:         35,999 MB at UTC 2019.12.10 05:45:22.159
-\# Memory report: Maximum memory size now 36,424 MB at UTC 2019.12.10 05:45:22.160
-\# Thread usage report: 33 active threads, active load 1.00 at UTC 2019.12.10 05:45:22.160
-\# Memory report: using         425 MB, process size 1,737 MB at UTC 2019.12.10 05:45:22.160
+\o Loading monte.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 1) on testbench [
+\o           CHARACTERIZATION:NOISE_NMOS:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDS = "0.0001"
+\o Setting var L = "180e-9"
+\o Setting var NF = "1"
+\o Setting var VDS = "1"
+\o Setting var WF = "10e-6"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.18/1/CHARACTERIZATION:NOISE_NMOS:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.18/1/CHARACTERIZATION:NOISE_NMOS:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 1)
+\o 
+\o generate netlist...
+\o Loading seCore.cxt 
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 10 08:42:29 2020
+\o End netlisting Jan 10 08:42:29 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           CHARACTERIZATION:NOISE_NMOS:1 ] for Point ID (0 1).
+\o 
+\o Delete psf data in /home/saul/Sim/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.18/1/CHARACTERIZATION:NOISE_NMOS:1/psf.
+\o simulate...
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 1) on testbench [
+\o           CHARACTERIZATION:NOISE_NMOS:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
 \o 
 \o *Info*    Received signal SIGTERM.
 \o 
 \o 
-\o Loading simui.cxt 
-\# Memory report: on exit            428 MB, process size 1,740 MB at UTC 2019.12.10 05:45:59.020
-\# Memory report: peak usage         428 MB, process size 1,740 MB
+\# Memory report: on exit            437 MB, process size 1,777 MB at UTC 2020.01.10 07:42:33.576
+\# Memory report: peak usage         437 MB, process size 1,777 MB

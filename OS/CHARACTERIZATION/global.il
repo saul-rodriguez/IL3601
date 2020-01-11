@@ -2,10 +2,10 @@
 
 ; ** NMOS1 **
 VDS1 = 1.0
-IDS1 = 100u
-L1 = 0.18u
-WF1 = 10.0u
-NF1 = 1
+IDS1 = 800u
+L1 = 0.35u
+WF1 = 20.0u
+NF1 = 40
 
 ; ** NMOS2 **
 VDS2 = 1.1
@@ -23,10 +23,10 @@ NF3 = 1
 
 ; ** PMOS1 **
 VDS4 = 0.5
-IDS4 = 1u
+IDS4 = 1.3m
 L4 = 0.18u
 WF4 = 10u
-NF4 = 1
+NF4 = 10
 
 ; ** PMOS2 **
 VDS5 = 1.0

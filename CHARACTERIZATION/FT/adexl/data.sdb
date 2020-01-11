@@ -21,7 +21,7 @@
 						<value>$AXL_SETUPDB_DIR/test_states</value>
 					</option>
 					<option>state
-						<value>CHARACTERIZATION:FT:1_import</value>
+						<value>CHARACTERIZATION:FT:1_active</value>
 					</option>
 				</tooloptions>
 				<origoptions>
@@ -73,6 +73,18 @@
 			</var>
 			<var>WF
 				<value>10u</value>
+				<dependentTests>
+					<dependentTest omitted="0">CHARACTERIZATION:FT:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>IDS
+				<value>1m</value>
+				<dependentTests>
+					<dependentTest omitted="0">CHARACTERIZATION:FT:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VDS
+				<value>1</value>
 				<dependentTests>
 					<dependentTest omitted="0">CHARACTERIZATION:FT:1</dependentTest>
 				</dependentTests>
@@ -1361,6 +1373,160 @@
 				<vars>
 					<var>IDS
 						<value>1e-06</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.2
+			<checkpoint>
+				<tests>
+					<test>CHARACTERIZATION:FT:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>FT</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:FT:1_state1_Interactive.2</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>FT</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>state1</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>IDS1
+						<value>{From/To}Decade:1u:10:1m{From/To}</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:FT:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>0.18u</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:FT:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NF
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:FT:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:FT:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WF
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:FT:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IDS
+						<value>1m</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:FT:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:FT:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jan 7 12:30:11 2020</timestamp>
+			<uuid>{18f3e631-7fe4-4e0a-8e60-d18374a36e78}</uuid>
+			<resultsname>/home/saul/projects/test_xfab1/CHARACTERIZATION/FT/adexl/results/data/Interactive.2.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.2.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/s2424_saul_123011848</localpsfdir>
+			<psfdir>/home/saul/Sim/CHARACTERIZATION/FT/adexl/results/data/Interactive.2</psfdir>
+			<simdir>$AXL_PROJECT_DIR/CHARACTERIZATION/FT/adexl/results/data/Interactive.2</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/test_xfab1/CHARACTERIZATION/FT/adexl/results/data/Interactive.2.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.2.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>IDS1
+						<value>10u</value>
 					</var>
 				</vars>
 			</schematicpoint>
