@@ -18,30 +18,30 @@ modelFile(
 
 load("OS/CHARACTERIZATION/global.il")
 
-;NMOS1: W1_tot = 800.00um  L1 = 0.35um  IDS1 = 0.8000mA  VDS1 = 1.00V
-  gm1 = 14.299m
-  rds1 = 15551.16
-  cgs1 = 912.96f
-  cgd1 = 262.49f
-  cds1 = 0.45f
-  cdb1 = 648.32f
-  vgs1 = 0.6572
-  Gain1 = 222.37
-  gm_id1 = 17.87
-;  Ft1 = 1936.11 MHz 
+;NMOS1: W1_tot = 800.00um  L1 = 0.35um  IDS1 = 0.8000mA  VDS1 = 0.50V
+  gm1 = 15.871m
+  rds1 = 17084.86
+  cgs1 = 773.18f
+  cgd1 = 264.04f
+  cds1 = 280.63f
+  cdb1 = 789.59f
+  vgs1 = 0.4331
+  Gain1 = 271.15
+  gm_id1 = 19.84
+;  Ft1 = 2435.24 MHz 
 
-; PMOS1: W4_tot = 100.00um  L4 = 0.18um  IDS4 = 1.3000mA  VDS4 = 0.50V
-  gm4 = 8.714m
-  rds4 = 4208.45
-  cgs4 = 139.95f
-  cgd4 = 31.92f
-  cds4 = 0.32f
-  cdb4 = 83.04f
-  vgs4 = -0.9090
-  Gain4 = 36.67
-  gm_id4 = 6.70
-;  Ft4 = 8070.01 MHz 
-
+;PMOS1: W4_tot = 50.00um  L4 = 0.18um  IDS4 = 1.3000mA  VDS4 = 0.50V
+  gm4 = 6.448m
+  rds4 = 1384.77
+  cgs4 = 58.14f
+  cgd4 = 16.04f
+  cds4 = 0.06f
+  cdb4 = 43.70f
+  vgs4 = -0.6735
+  Gain4 = 8.93
+  gm_id4 = 4.96
+;  Ft4 = 13833.46 MHz
+ 
 IT = 0;
 IS = 1;
 
