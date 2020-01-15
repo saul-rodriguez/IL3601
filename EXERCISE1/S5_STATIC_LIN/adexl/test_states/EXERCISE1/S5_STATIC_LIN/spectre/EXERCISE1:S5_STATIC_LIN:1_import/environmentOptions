@@ -1,4 +1,4 @@
-(envOpts analysisOrder) ("dc" "ac" "pz" "noise")
+(envOpts analysisOrder) ("pz" "dcmatch" "stb" "tran" "envlp" "ac" "dc" "noise" "xf" "sp" "acmatch" "pss" "pac" "pstb" "pnoise" "pxf" "psp" "qpss" "qpac" "qpnoise" "qpxf" "qpsp" "hb" "hbac" "hbnoise" "hbsp" "sens" "lf" "hbstb" "hbxf" "include")
 (envOpts autoDisplay) t
 (envOpts bus_delimiter) ""
 (envOpts case_sensitive) "false"
@@ -27,7 +27,7 @@
 (envOpts enableNoiseRefactor) t
 (envOpts enablePhaseNoiseBW) t
 (envOpts extra_port) "false"
-(envOpts firstRun) t
+(envOpts firstRun) nil
 (envOpts lastEmAnaType) ""
 (envOpts licQueueSleep) ""
 (envOpts licQueueTimeOut) "900"

@@ -23,7 +23,7 @@ modelFile(
     '("/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/res.scs" "tm")
 )
 analysis('dc ?param "VGS"  ?start "0"  ?stop "1.8"  
-		?step ".05"  )
+		?step ".025"  )
 desVar(	  "VDS" 1	)
 desVar(	  "VGS" 1	)
 envOption(

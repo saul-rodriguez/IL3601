@@ -7,17 +7,14 @@
 *Info*    Configuring the session ...
 
 	Library      = EXERCISE1
-	Cell         = S7_BLOCK_TB
+	Cell         = S5_STATIC_LIN
 	View         = schematic
+	Netlist  	  = nil
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = EXERCISE1:S7_BLOCK_TB:1:1_EXERCISE1:S7_BLOCK_TB:1:1_state_Interactive.42
-	Results DB   = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.42.rdb
-	Results Dir  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.42/1/EXERCISE1:S7_BLOCK_TB:1:1
-	Results Loc  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data
-	Project Dir  = /home/saul/projects/test_xfab1/Sim
-	Setup DB loc = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl
-	File Encoding = 0
+	State Name   = EXERCISE1:S5_STATIC_LIN:1_EXERCISE1:S5_STATIC_LIN:1_Jan_15_13_55_07_2020_Ocean.24
+	Results DB   = /home/saul/projects/test_xfab1/EXERCISE1/S5_STATIC_LIN/adexl/results/data/Ocean.24.rdb
+	Setup DB loc = /home/saul/projects/test_xfab1/EXERCISE1/S5_STATIC_LIN/adexl
 
 
 variable oasisVariableValue redefined
@@ -30,101 +27,67 @@ variable persistNewList redefined
 
 
 
-*Info*    Run start for Point ID (21 1) on testbench [
-          EXERCISE1:S7_BLOCK_TB:1:1 ].
+*Info*    Run start for Point ID (0 1) on testbench [
+          EXERCISE1:S5_STATIC_LIN:1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var FREQ1 = "0"
-Setting var FREQ2 = "0"
-Setting var IN_AC = "1"
-Setting var IN_AM1 = "0"
-Setting var IN_AM2 = "0"
-Setting var IPULSE = "0"
-Setting var VD = "1.8"
-Setting var VD_AC = "0"
-Setting var VD_PULSE = "-1.8"
+Setting var IS = "1"
+Setting var IS_DC = "0"
+Setting var R1 = "100000"
+Setting var R2 = "400"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.42/1/EXERCISE1:S7_BLOCK_TB:1:1/netlist
+          /home/saul/Sim/EXERCISE1/S5_STATIC_LIN/adexl/results/data/Ocean.24/1/EXERCISE1:S5_STATIC_LIN:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.42/1/EXERCISE1:S7_BLOCK_TB:1:1
+          /home/saul/Sim/EXERCISE1/S5_STATIC_LIN/adexl/results/data/Ocean.24/1/EXERCISE1:S5_STATIC_LIN:1
 
 
-*Info*    Creating Netlist for Point ID (21 1)
+*Info*    Creating Netlist for Point ID (0 1)
 
 generate netlist...
 function ansCdlCompPrim redefined
 function ansCdlCompPrim redefined
-Begin Incremental Netlisting Jan 14 23:42:14 2020
-ERROR (OSSHNL-109): The cellview 'EXERCISE1/S7_BLOCK/schematic' has been modified since the last extraction. Validate
-that the schematic is correct and run Check and Save to correct this error.
+Begin Incremental Netlisting Jan 15 13:55:12 2020
+WARNING (OSSHNL-160): The primitive, 'PRIMLIB/nel/spectre', was not used in the last netlisting session in this
+current run directory. Therefore, re-netlisting all cell views where this
+primitive is instantiated.
 
-End netlisting Jan 14 23:42:14 2020
-ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
-      ...unsuccessful.
+WARNING (OSSHNL-160): The primitive, 'PRIMLIB/pel/spectre', was not used in the last netlisting session in this
+current run directory. Therefore, re-netlisting all cell views where this
+primitive is instantiated.
 
-*Error*   Error ID  = 5012
-*Error*   Error Msg = Failed to create netlist.
+End netlisting Jan 15 13:55:12 2020
 
+Netlisting Statistics:
+	Number of components:   24
 
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
 
+*Info*    Running simulation on testbench [ EXERCISE1:S5_STATIC_LIN:1
+          ] for Point ID (0 1).
 
-
-
-
-
-
-*Info*    Run start for Point ID (21 1) on testbench [
-          EXERCISE1:S7_BLOCK_TB:1:1 ].
-
-Resetting statistical vars
-
-*Info*    Setting parameter values ...
-
-Setting var FREQ1 = "0"
-Setting var FREQ2 = "0"
-Setting var IN_AC = "1"
-Setting var IN_AM1 = "0"
-Setting var IN_AM2 = "0"
-Setting var IPULSE = "0"
-Setting var VD = "1.8"
-Setting var VD_AC = "0"
-Setting var VD_PULSE = "-1.8"
-Setting temp(T) = 27
-
-*Info*    Netlist Directory =
-          /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.42/1/EXERCISE1:S7_BLOCK_TB:1:1/netlist
+Delete psf data in /home/saul/Sim/EXERCISE1/S5_STATIC_LIN/adexl/results/data/Ocean.24/1/EXERCISE1:S5_STATIC_LIN:1/psf.
+simulate...
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
 
 
-*Info*    Data Directory    =
-          /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.42/1/EXERCISE1:S7_BLOCK_TB:1:1
-
-
-*Info*    Creating Netlist for Point ID (21 1)
-
-generate netlist...
-function ansCdlCompPrim redefined
-function ansCdlCompPrim redefined
-Begin Incremental Netlisting Jan 14 23:42:14 2020
-ERROR (OSSHNL-109): The cellview 'EXERCISE1/S7_BLOCK/schematic' has been modified since the last extraction. Validate
-that the schematic is correct and run Check and Save to correct this error.
-
-End netlisting Jan 14 23:42:14 2020
-ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
-      ...unsuccessful.
-
-*Error*   Error ID  = 5012
-*Error*   Error Msg = Failed to create netlist.
+*Info*    Run complete for Point ID (0 1) on testbench [
+          EXERCISE1:S5_STATIC_LIN:1 ].
 
 
 
 
-Simulation design variables differ from those on the cellView,
-they have been saved in the file "/tmp/saved-design-variables".
-To save future changes, copy variables to cellView before exiting.
+

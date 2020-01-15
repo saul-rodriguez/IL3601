@@ -70,7 +70,7 @@
 				</models>
 			</corner>
 		</corners>
-		<currentmode>Monte Carlo Sampling</currentmode>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<extensions>
 			<extension>Parasitics
 				<callback>_parSetupDBExtensionCB</callback>
@@ -276,7 +276,7 @@
 		</plottingoptions>
 		<jobpolicyname>ADE XL Default</jobpolicyname>
 		<disabledtests>
-			<test>EXERCISE1:S7_BLOCK_TB:1</test>
+			<test>EXERCISE1:S7_BLOCK_TB:1:1</test>
 		</disabledtests>
 		<runoptions>
 			<mode>Monte Carlo Sampling
@@ -340,452 +340,6 @@
 		</runoptions>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.6
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-					<corner enabled="1">C0
-						<vars>
-							<var>temperature
-								<value>-10 85</value>
-							</var>
-							<var>VD
-								<value>1.62 1.98</value>
-							</var>
-						</vars>
-						<models>
-							<model enabled="0">config.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/config.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">param.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/param.scs</modelfile>
-								<modelsection>"3s"</modelsection>
-							</model>
-							<model enabled="1">bip.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/bip.scs</modelfile>
-								<modelsection>"tm"</modelsection>
-							</model>
-							<model enabled="1">cap.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/cap.scs</modelfile>
-								<modelsection>"wp" "ws"</modelsection>
-							</model>
-							<model enabled="1">dio.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/dio.scs</modelfile>
-								<modelsection>"tm"</modelsection>
-							</model>
-							<model enabled="1">mos.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/mos.scs</modelfile>
-								<modelsection>"wo" "wp" "ws" "wz"</modelsection>
-							</model>
-							<model enabled="1">photo.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/photo.scs</modelfile>
-								<modelsection>"tm"</modelsection>
-							</model>
-							<model enabled="1">res.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/res.scs</modelfile>
-								<modelsection>"wp" "ws"</modelsection>
-							</model>
-							<model enabled="0">xh018.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/xh018.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-						</models>
-					</corner>
-				</corners>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">EXERCISE1:S7_BLOCK_TB:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>S7_BLOCK_TB</value>
-							</option>
-							<option>lib
-								<value>EXERCISE1</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>EXERCISE1:S7_BLOCK_TB:1_none_Interactive.6</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>S7_BLOCK_TB</value>
-							</option>
-							<option>lib
-								<value>EXERCISE1</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>FREQ1
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>FREQ2
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>IN_AC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>IN_AM1
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>IN_AM2
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>IPULSE
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VD
-						<value>1.8</value>
-						<dependentTests>
-							<dependentTest omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VD_AC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VD_PULSE
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="0" omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Jan 14 23:56:21 2020</timestamp>
-			<uuid>{810891e0-01eb-4418-99b5-34a623a4cdee}</uuid>
-			<resultsname>/home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.6.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_235621471</localpsfdir>
-			<psfdir>/home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6</psfdir>
-			<simdir>$AXL_PROJECT_DIR/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6</simdir>
-			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.6.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.7
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-					<corner enabled="1">C0
-						<vars>
-							<var>temperature
-								<value>-10 85</value>
-							</var>
-							<var>VD
-								<value>1.62 1.98</value>
-							</var>
-						</vars>
-						<models>
-							<model enabled="0">config.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/config.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">param.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/param.scs</modelfile>
-								<modelsection>"3s"</modelsection>
-							</model>
-							<model enabled="1">bip.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/bip.scs</modelfile>
-								<modelsection>"tm"</modelsection>
-							</model>
-							<model enabled="1">cap.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/cap.scs</modelfile>
-								<modelsection>"wp" "ws"</modelsection>
-							</model>
-							<model enabled="1">dio.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/dio.scs</modelfile>
-								<modelsection>"tm"</modelsection>
-							</model>
-							<model enabled="1">mos.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/mos.scs</modelfile>
-								<modelsection>"wo" "wp" "ws" "wz"</modelsection>
-							</model>
-							<model enabled="1">photo.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/photo.scs</modelfile>
-								<modelsection>"tm"</modelsection>
-							</model>
-							<model enabled="1">res.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/res.scs</modelfile>
-								<modelsection>"wp" "ws"</modelsection>
-							</model>
-							<model enabled="0">xh018.scs
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/xh018.scs</modelfile>
-								<modelsection></modelsection>
-							</model>
-						</models>
-					</corner>
-				</corners>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">EXERCISE1:S7_BLOCK_TB:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>S7_BLOCK_TB</value>
-							</option>
-							<option>lib
-								<value>EXERCISE1</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>EXERCISE1:S7_BLOCK_TB:1_none_Interactive.7</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>S7_BLOCK_TB</value>
-							</option>
-							<option>lib
-								<value>EXERCISE1</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>FREQ1
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>FREQ2
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>IN_AC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>IN_AM1
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>IN_AM2
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>IPULSE
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VD
-						<value>1.8</value>
-						<dependentTests>
-							<dependentTest omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VD_AC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">VD_PULSE
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var enabled="0">IPULSE_BIAS
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="0" omitted="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-				</plottingoptions>
-				<jobpolicyname>ADE XL Default</jobpolicyname>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Jan 15 00:03:00 2020</timestamp>
-			<uuid>{e0ce53b6-5472-44ab-967b-35eef9c3044f}</uuid>
-			<resultsname>/home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.7.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.7.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424_saul_000300267</localpsfdir>
-			<psfdir>/home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.7</psfdir>
-			<simdir>$AXL_PROJECT_DIR/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.7</simdir>
-			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.7.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.7.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
 		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.8
 			<checkpoint>
 				<corners>
@@ -3146,6 +2700,724 @@
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
 			<runlog>/home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/MonteCarlo.4.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/data/MonteCarlo.4.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">MonteCarlo.5
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">C0
+						<vars>
+							<var>temperature
+								<value>-10 85</value>
+							</var>
+							<var>VD
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/config.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/mos.scs</modelfile>
+								<modelsection>"wo" "wp" "ws" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/xh018.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<currentmode>Monte Carlo Sampling</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">EXERCISE1:S7_BLOCK_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>S7_BLOCK_TB</value>
+							</option>
+							<option>lib
+								<value>EXERCISE1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>EXERCISE1:S7_BLOCK_TB:1_none_MonteCarlo.5</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>S7_BLOCK_TB</value>
+							</option>
+							<option>lib
+								<value>EXERCISE1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>dB20(IF("/IPRB0/PLUS"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">EXERCISE1:S7_BLOCK_TB:1:1
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(IF("/IPRB0/PLUS"))
+								<evalType>point</evalType>
+							</output>
+							<output>value(dB20(IF("/IPRB0/PLUS")) 100000)
+								<evalType>point</evalType>
+							</output>
+							<output>cross(dB20(IF("/IPRB0/PLUS")) "45" 1 "either" nil nil nil)
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>S7_BLOCK_TB</value>
+							</option>
+							<option>lib
+								<value>EXERCISE1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>EXERCISE1:S7_BLOCK_TB:1:1_EXERCISE1:S7_BLOCK_TB:1:1_state_MonteCarlo.5</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>S7_BLOCK_TB</value>
+							</option>
+							<option>lib
+								<value>EXERCISE1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>EXERCISE1:S7_BLOCK_TB:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>FREQ1
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>FREQ2
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">IN_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IN_AM1
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IN_AM2
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IPULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VD_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VD_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">IPULSE_BIAS
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests>
+					<test>EXERCISE1:S7_BLOCK_TB:1:1</test>
+				</disabledtests>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>1</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>0</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>yes</value>
+						</runoption>
+						<runoption>dutsummary
+							<dutinstance>row0
+								<test>EXERCISE1:S7_BLOCK_TB:1:1</test>
+								<type>Subcircuit</type>
+								<LCV>S7_BLOCK</LCV>
+								<Instances>/I0</Instances>
+							</dutinstance>
+						</runoption>
+						<runoption>ignoreflag
+							<value>0</value>
+						</runoption>
+						<runoption>ignoremode
+							<value>default</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jan 15 14:49:23 2020</timestamp>
+			<uuid>{1ec7b4d5-fd5b-4802-9f53-83aa9163a07f}</uuid>
+			<resultsname>/home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/MonteCarlo.5.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/MonteCarlo.5.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/s2424_saul_144923319</localpsfdir>
+			<psfdir>/home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/MonteCarlo.5</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EXERCISE1/S7_BLOCK_TB/adexl/results/data/MonteCarlo.5</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/MonteCarlo.5.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/MonteCarlo.5.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.11
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">C0
+						<vars>
+							<var>temperature
+								<value>-10 85</value>
+							</var>
+							<var>VD
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">config.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/config.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">param.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/param.scs</modelfile>
+								<modelsection>"3s"</modelsection>
+							</model>
+							<model enabled="1">bip.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/bip.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">cap.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/cap.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="1">dio.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/dio.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">mos.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/mos.scs</modelfile>
+								<modelsection>"wo" "wp" "ws" "wz"</modelsection>
+							</model>
+							<model enabled="1">photo.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/photo.scs</modelfile>
+								<modelsection>"tm"</modelsection>
+							</model>
+							<model enabled="1">res.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/res.scs</modelfile>
+								<modelsection>"wp" "ws"</modelsection>
+							</model>
+							<model enabled="0">xh018.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/xh018.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">EXERCISE1:S7_BLOCK_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>S7_BLOCK_TB</value>
+							</option>
+							<option>lib
+								<value>EXERCISE1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>EXERCISE1:S7_BLOCK_TB:1_none_Interactive.11</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>S7_BLOCK_TB</value>
+							</option>
+							<option>lib
+								<value>EXERCISE1</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>dB20(IF("/IPRB0/PLUS"))
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">EXERCISE1:S7_BLOCK_TB:1:1
+						<tool>ADE</tool>
+						<outputs>
+							<output>dB20(IF("/IPRB0/PLUS"))
+								<evalType>point</evalType>
+							</output>
+							<output>value(dB20(IF("/IPRB0/PLUS")) 100000)
+								<evalType>point</evalType>
+							</output>
+							<output>cross(dB20(IF("/IPRB0/PLUS")) "45" 1 "either" nil nil nil)
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<tooloptions>
+							<option>cell
+								<value>S7_BLOCK_TB</value>
+							</option>
+							<option>lib
+								<value>EXERCISE1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>EXERCISE1:S7_BLOCK_TB:1:1_EXERCISE1:S7_BLOCK_TB:1:1_state_Interactive.11</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>S7_BLOCK_TB</value>
+							</option>
+							<option>lib
+								<value>EXERCISE1</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>EXERCISE1:S7_BLOCK_TB:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>FREQ1
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>FREQ2
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">IN_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="0">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IN_AM1
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IN_AM2
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IPULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VD_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">VD_PULSE
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">IPULSE_BIAS
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">EXERCISE1:S7_BLOCK_TB:1:1</dependentTest>
+							<dependentTest enabled="1">EXERCISE1:S7_BLOCK_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<disabledtests>
+					<test>EXERCISE1:S7_BLOCK_TB:1:1</test>
+				</disabledtests>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>mcnumpoints
+							<value>200</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>mcStopMethod
+							<value>Significance Test</value>
+						</runoption>
+						<runoption>samplingmode
+							<value>lds</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>1</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>mcreferencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>donominal
+							<value>0</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>1</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value></value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value></value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>yes</value>
+						</runoption>
+						<runoption>dutsummary
+							<dutinstance>row0
+								<test>EXERCISE1:S7_BLOCK_TB:1:1</test>
+								<type>Subcircuit</type>
+								<LCV>S7_BLOCK</LCV>
+								<Instances>/I0</Instances>
+							</dutinstance>
+						</runoption>
+						<runoption>ignoreflag
+							<value>0</value>
+						</runoption>
+						<runoption>ignoremode
+							<value>default</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jan 15 14:49:42 2020</timestamp>
+			<uuid>{14c94e52-4780-4db0-b641-29dd419b6040}</uuid>
+			<resultsname>/home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.11.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.11.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/s2424_saul_144942290</localpsfdir>
+			<psfdir>/home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.11</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.11</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.11.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.11.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>

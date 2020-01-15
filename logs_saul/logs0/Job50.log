@@ -6,17 +6,17 @@
 
 *Info*    Configuring the session ...
 
-	Library      = EXERCISE1
-	Cell         = S7_BLOCK_TB
+	Library      = CHARACTERIZATION
+	Cell         = GMID_NMOS_L
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = EXERCISE1:S7_BLOCK_TB:1_none_Interactive.11
-	Results DB   = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.11.rdb
-	Results Dir  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.11/1/EXERCISE1:S7_BLOCK_TB:1
-	Results Loc  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data
-	Project Dir  = /home/saul/projects/test_xfab1/Sim
-	Setup DB loc = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl
+	State Name   = CHARACTERIZATION:GMID_NMOS_L:1_none_Interactive.5
+	Results DB   = /home/saul/projects/test_xfab1/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Interactive.5.rdb
+	Results Dir  = /home/saul/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Interactive.5/1/CHARACTERIZATION:GMID_NMOS_L:1
+	Results Loc  = /home/saul/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data
+	Project Dir  = /home/saul/Sim/
+	Setup DB loc = /home/saul/projects/test_xfab1/CHARACTERIZATION/GMID_NMOS_L/adexl
 	File Encoding = 0
 
 
@@ -30,53 +30,46 @@ variable persistNewList redefined
 
 
 
-*Info*    Run start for Point ID (7 1) on testbench [
-          EXERCISE1:S7_BLOCK_TB:1 ].
+*Info*    Run start for Point ID (5 1) on testbench [
+          CHARACTERIZATION:GMID_NMOS_L:1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var FREQ1 = "0"
-Setting var FREQ2 = "0"
-Setting var IN_AC = "1"
-Setting var IN_AM1 = "0"
-Setting var IN_AM2 = "0"
-Setting var IPULSE = "2u"
-Setting var VD = "1.8"
-Setting var VD_AC = "0"
-Setting var VD_PULSE = "0"
+Setting var IDS1 = "800u"
+Setting var L1 = "350n"
+Setting var NF1 = "10"
+Setting var VDS1 = "0.5"
+Setting var WF1 = "10u"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.11/1/EXERCISE1:S7_BLOCK_TB:1/netlist
+          /home/saul/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Interactive.5/1/CHARACTERIZATION:GMID_NMOS_L:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.11/1/EXERCISE1:S7_BLOCK_TB:1
+          /home/saul/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Interactive.5/1/CHARACTERIZATION:GMID_NMOS_L:1
 
 
-*Info*    Creating Netlist for Point ID (7 1)
+*Info*    Creating Netlist for Point ID (5 1)
 
 generate netlist...
 function ansCdlCompPrim redefined
 function ansCdlCompPrim redefined
-Begin Incremental Netlisting Jan 14 17:56:20 2020
-End netlisting Jan 14 17:56:20 2020
+Begin Incremental Netlisting Jan 15 07:37:01 2020
+End netlisting Jan 15 07:37:01 2020
 
-Netlisting Statistics:
-	Number of components:   47
-
-	Elapsed time:          1.0s (47.00/s)
-Errors: 0	Warnings: 0
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
       ...successful.
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1 ]
-          for Point ID (7 1).
+*Info*    Running simulation on testbench [
+          CHARACTERIZATION:GMID_NMOS_L:1 ] for Point ID (5 1).
 
-Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.11/1/EXERCISE1:S7_BLOCK_TB:1/psf.
+Delete psf data in /home/saul/Sim/CHARACTERIZATION/GMID_NMOS_L/adexl/results/data/Interactive.5/1/CHARACTERIZATION:GMID_NMOS_L:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -91,8 +84,8 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (7 1) on testbench [
-          EXERCISE1:S7_BLOCK_TB:1 ].
+*Info*    Run complete for Point ID (5 1) on testbench [
+          CHARACTERIZATION:GMID_NMOS_L:1 ].
 
 
 
