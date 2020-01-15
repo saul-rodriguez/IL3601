@@ -29,11 +29,11 @@ WF4 = 10u
 NF4 = 10
 
 ; ** PMOS2 **
-VDS5 = 1.0
-IDS5 = 2u
-L5 = 0.25u
-WF5 = 5u
-NF5 = 1
+VDS5 = 0.3
+IDS5 = 800u
+L5 = 1u
+WF5 = 10u
+NF5 = 40
 
 ; ** PMOS3 **
 VDS6 = 1.1

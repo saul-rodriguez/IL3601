@@ -1,12 +1,12 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 09/03/2019 21:35 (ip-172-18-22-89) $
 \o Sub version:		sub-version  s061 
-\o Arguments:		-mpssession virtuoso26859 -mpshost s2424 
+\o Arguments:		-mpssession virtuoso18163 -mpshost s2424 
 \o Working Directory:	s2424:/home/saul/projects/test_xfab1
 \o 64-bit offsets
 \o Qt version: 		5.9.1
 \o Log file is "/home/saul/projects/test_xfab1/libManager.log".
 \o Opening libManager window.
-\a nrResizeWindow(cdsLibManager list(159 194 1173 740))
+\a nrResizeWindow(cdsLibManager list(564 328 1173 464))
 \a nrSetCurrentWindow(cdsLibManager)
 \o changeWorkingDir("/home/saul/projects/test_xfab1") unnecessary.
 \o ddSetForcedLib("") unnecessary.
@@ -17,18 +17,12 @@
 \a cdsLibManager->libLineEdit->value = "CHARACTERIZATION"
 \a cdsLibManager->libListBox->value = "EXERCISE1"
 \a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a cdsLibManager->cellListBox->value = "S1_NULLOR"
-\a cdsLibManager->cellLineEdit->value = "S1_NULLOR"
+\a cdsLibManager->cellListBox->value = "S7_BLOCK_TB"
+\a cdsLibManager->cellLineEdit->value = "S7_BLOCK_TB"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "S3_PI"
-\a cdsLibManager->cellLineEdit->value = "S3_PI"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(374 186 1173 740))
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
@@ -37,8 +31,8 @@
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "EXERCISE1"
 \a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a cdsLibManager->cellListBox->value = "S3_PI"
-\a cdsLibManager->cellLineEdit->value = "S3_PI"
+\a cdsLibManager->cellListBox->value = "S7_BLOCK_TB"
+\a cdsLibManager->cellLineEdit->value = "S7_BLOCK_TB"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -50,167 +44,131 @@
 \a nrSetWindowVisibility(cdsLibManager "hide")
 \a nrSetWindowVisibility(cdsLibManager "show")
 \a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 19 46 2 "S3_PI")
-\a cdsLibManager->copySimpleButton->value = t
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a copyCellForm->CopyFromLibrary->value = "CHARACTERIZATION"
-\a copyCellForm->CopyToLibrary->value = "CHARACTERIZATION"
-\a copyCellForm->CopyFromLibrary->value = "EXERCISE1"
-\a copyCellForm->CopyFromCell->value = "S3_PI"
-\a copyCellForm->CopyToLibrary->value = "EXERCISE1"
-\a copyCellForm->CopyToCell->value = "S3_PI"
-\a copyCellForm->ViewsToCopy->value = "schematic"
-\a copyCellForm->SkipLibrariesEdit->value = ""
-\a copyCellForm->SkipLibrariesEdit->value = "CHARACTERIZATION CadenceLibs D_CELLS_3V D_CELLS_HD D_CELLS_HDLL D_CELLS_HDMT D_CELLS_HDMV D_CELLS_JI3V D_CELLS_JIHD D_CELLS_JIHDLL D_CELLS_JIHDMT D_CELLS_JIHDMV D_CELLS_JIM3V D_CELLS_M3V DigitalLibs GATES_3V GATES_HD GATES_JI3V GATES_JIHD GATES_JIMT GATES_MT IO_CELLS_3V IO_CELLS_C1V8 IO_CELLS_C3V IO_CELLS_F3V IO_CELLS_FC1V8 IO_CELLS_FC3V IO_CELLS_JI3V IO_CELLS_JIF3V PRIMLIB TECH_XH018 TECH_XH018_HD US_8ths VLG_PRIMITIVES XFABLibs ahdlLib ambit analogLib avTech basic cdsDefTechLib connectLib functional ieee sample sbaLib std synopsys xfab_connectLib"
-\a nrSetWindowVisibility(copyCellForm "show")
-\a nrSetCurrentWindow(copyCellForm)
-\a nrResizeWindow(copyCellForm list(716 187 468 659))
-\a copyCellForm->CopyToCell->value = "S2_PI"
-\a copyCellForm->OK->value = t
-\o Beginning simple copy to library "EXERCISE1".
-\o Processing files to be copied...
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "EXERCISE1"
+\a cdsLibManager->libLineEdit->value = "EXERCISE1"
+\a cdsLibManager->cellListBox->value = "S7_BLOCK_TB"
+\a cdsLibManager->cellLineEdit->value = "S7_BLOCK_TB"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 27 1920 1025))
+\a cdsLibManager->viewListBox->value = "estimated"
+\a cdsLibManager->viewLineEdit->value = "estimated"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "estimated"
+\a cdsLibManager->viewLineEdit->value = "estimated"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrResizeWindow(cdsLibManager list(496 405 1173 464))
+\a nrResizeWindow(cdsLibManager list(416 653 1173 464))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup2" 53 29 2 "estimated")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrResizeWindow(deleteForm list(679 585 627 425))
+\a nrSetCurrentWindow(deleteForm)
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(858 752 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting view "estimated" from cell "S7_BLOCK_TB" in library "EXERCISE1".
 \a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(858 779 268 133))
+\o Deleted cellview 'EXERCISE1/S7_BLOCK_TB/estimated'.
+\a nrSetCurrentWindow(deleteForm)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(814 480 273 133))
-\a nrResizeWindow(copyCellForm list(716 157 468 659))
-\o Copy succeeded.
+\o Deletion of 1 view done.
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrResizeWindow(deleteForm list(679 555 627 425))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "EXERCISE1"
 \a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a cdsLibManager->cellListBox->value = "S3_PI"
-\a cdsLibManager->cellLineEdit->value = "S3_PI"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a cdsLibManager->cellListBox->value = "S7_BLOCK_TB"
+\a cdsLibManager->cellLineEdit->value = "S7_BLOCK_TB"
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(814 450 273 133))
-\a cdsLibManager->cellListBox->value = "S2_PI"
-\a cdsLibManager->cellLineEdit->value = "S2_PI"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(298 370 1173 740))
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S3_PI"
-\a cdsLibManager->cellLineEdit->value = "S3_PI"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(858 749 268 133))
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(179 291 1173 740))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S4_PI"
-\a cdsLibManager->cellLineEdit->value = "S4_PI"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = ""
+\a nrResizeWindow(cdsLibManager list(407 269 1173 464))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "S4_PI"
-\a cdsLibManager->cellLineEdit->value = "S4_PI"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "EXERCISE1"
+\a cdsLibManager->libLineEdit->value = "EXERCISE1"
+\a cdsLibManager->cellListBox->value = "S7_BLOCK_TB"
+\a cdsLibManager->cellLineEdit->value = "S7_BLOCK_TB"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "EXERCISE1"
+\a cdsLibManager->libLineEdit->value = "EXERCISE1"
+\a cdsLibManager->cellListBox->value = "S7_BLOCK_TB"
+\a cdsLibManager->cellLineEdit->value = "S7_BLOCK_TB"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
 \a nrSetWindowVisibility(cdsLibManager "hide")
 \a nrSetWindowVisibility(cdsLibManager "show")
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S4_PI_COMP"
-\a cdsLibManager->cellLineEdit->value = "S4_PI_COMP"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
 \o MPS service: shutdown
 \o libManager is exiting.
 \a exit(0)

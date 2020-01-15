@@ -1,28 +1,28 @@
-\# Program start time:     UTC 2020.01.10 08:05:06.453
-\# Local time: CET (UTC+01:00) 2020.01.10 09:05:06.453
+\# Program start time:     UTC 2020.01.14 20:51:30.456
+\# Local time: CET (UTC+01:00) 2020.01.14 21:51:30.456
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 10/08/2019 20:07 (sjfhw316) $
 \o Hierarchy:		/pkg/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.7  (64-bit addresses)
-\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso20921 -mpshost s2424 -davinciService DaVinciService_20921_1578642063 -log /home/saul/projects/test_xfab1/logs_saul/logs0/Job58.log -licenseLockFileName /home/saul/projects/test_xfab1/.tmp_saul/.s2424_20921 -interactiveA -interactiveE -interactiveRTT -nostdin -nograph -axlChildIdFlag 58
+\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso16495 -mpshost s2424 -davinciService DaVinciService_16495_1579019763 -log /home/saul/projects/test_xfab1/logs_saul/logs0/Job58.log -licenseLockFileName /home/saul/projects/test_xfab1/.tmp_saul/.s2424_16495 -interactiveA -interactiveE -interactiveRTT -nostdin -nograph -axlChildIdFlag 58
 \# Host name (type):	s2424 (x86_64)
 \# Operating system:	Linux 3.10.0-1062.4.3.el7.x86_64 #1 SMP Wed Nov 13 23:58:53 UTC 2019
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
 \# X display name (WxH):	:95 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			RealVNC Ltd (VNC nograph server, PID 15113)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 27506)
 \# Depth of Visual (Root):	16 (16)
 \# Number of Planes Used:	16
 \# X version:		11.0 (vendor release 3370)
-\# X resource pool:	base 0x1000000, mask 0x3fffff (4194303), shift 0
+\# X resource pool:	base 0x2c00000, mask 0x3fffff (4194303), shift 0
 \# 			current id 0x0, current max 0x3ffffa (4194298)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
 \# Initial sbrk value:	        520 MB
-\# Available memory:	     39,630 MB
+\# Available memory:	     38,149 MB
 \# System memory:	     96,361 MB
 \# Maximum memory size:	     95,980 MB
-\# Max mem available:	     39,768 MB
+\# Max mem available:	     38,288 MB
 \# Initial memory used:	        139 MB
 \#        process size:	      1,378 MB
 \# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 32.00/32.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		saul
 \o Working Directory:	s2424:/home/saul/projects/test_xfab1
-\# Process Id:		15413
+\# Process Id:		28179
 \o 
 \o COPYRIGHT (C) 1992-2019  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2019  UNIX SYSTEMS Laboratories INC.,
@@ -68,16 +68,16 @@
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
 \o Loading adexl.cxt 
-\# Memory report: using         283 MB, process size 1,599 MB at UTC 2020.01.10 08:05:10.162
 \o *Info*    Exporting services from client ... 
 \o 
 \o Loading cli.cxt 
 \o Loading cle.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso20921, host=s2424). ICRP is turned on. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\# Memory report: using         286 MB, process size 1,605 MB at UTC 2020.01.14 20:51:32.063
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso16495, host=s2424). ICRP is turned on. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 15413 within 90 seconds is being processed...
-\o INFO (ELI-00305) The result of registration is true. Time spent is 1 seconds.
-\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 2 seconds.
+\o INFO (ELI-00304) The registration of the child 28179 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
 \o Loading .cdsinit for the XH018 X-Fab XKit.
 \o     LOAD xh018_1151 SPECIFIC CALL-BACK ROUTINES
 \o     LOAD ALL AVAILABLE P-CELL FUNCTIONS
@@ -108,7 +108,7 @@
 \o Loading msgHandler.cxt 
 \o Loading AMSOSS.cxt 
 \o Loading AMS.cxt 
-\# Memory report: using         411 MB, process size 1,723 MB at UTC 2020.01.10 08:05:12.457
+\# Memory report: using         411 MB, process size 1,723 MB at UTC 2020.01.14 20:51:34.339
 \o  --> Finished setting the required PDK definitions
 \o  --> Setting the recommended EDA tool defaults...
 \o  --> Finished setting the recommended EDA tool defaults
@@ -120,22 +120,25 @@
 \a _treeSetOpcGUI(t)
 \r t
 \o Loading vqp.cxt 
-\o Loading simui.cxt 
 \o 
 \o 
 \o *Info*    Configuring the session ...
 \o 
-\o 	Library      = CHARACTERIZATION
-\o 	Cell         = NOISE_NMOS
+\o 	Library      = EXERCISE1
+\o 	Cell         = S7_BLOCK_TB
 \o 	View         = schematic
-\o 	Netlist  	  = nil
 \o 	Simulator    = spectre
 \o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = CHARACTERIZATION:NOISE_NMOS:1_CHARACTERIZATION:NOISE_NMOS:1_Jan_10_09_04_57_2020_Ocean.23
-\o 	Results DB   = /home/saul/projects/test_xfab1/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.23.rdb
-\o 	Setup DB loc = /home/saul/projects/test_xfab1/CHARACTERIZATION/NOISE_NMOS/adexl
+\o 	State Name   = EXERCISE1:S7_BLOCK_TB:1:1_EXERCISE1:S7_BLOCK_TB:1:1_state_Interactive.13
+\o 	Results DB   = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13.rdb
+\o 	Results Dir  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/2/EXERCISE1:S7_BLOCK_TB:1:1
+\o 	Results Loc  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/test_xfab1/Sim
+\o 	Setup DB loc = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl
+\o 	File Encoding = 0
 \o 
 \o 
+\o Loading simui.cxt 
 \o INFO (TECH-150003): The technology database "analogLib" has been automatically
 \o updated from revision 226610(DM 0) to revision 227612(DM 3) in virtual memory.
 \o 
@@ -160,36 +163,43 @@
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (0 1) on testbench [
-\o           CHARACTERIZATION:NOISE_NMOS:1 ].
+\o *Info*    Run start for Point ID (9 10) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var IDS = "20e-6"
-\o Setting var L = "180e-9"
-\o Setting var NF = "40"
-\o Setting var VDS = "1"
-\o Setting var WF = "10e-6"
+\o Setting var FREQ1 = "0"
+\o Setting var FREQ2 = "0"
+\o Setting var IN_AC = "0"
+\o Setting var IN_AM1 = "0"
+\o Setting var IN_AM2 = "0"
+\o Setting var IPULSE = "2u"
+\o Setting var VD = "1.62"
+\o Setting var VD_AC = "0"
+\o Setting var VD_PULSE = "0"
 \o Setting temp(T) = 27
+\o Setting temp(T) = -10
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/Sim/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.23/1/CHARACTERIZATION:NOISE_NMOS:1/netlist
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/10/EXERCISE1:S7_BLOCK_TB:1:1/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/Sim/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.23/1/CHARACTERIZATION:NOISE_NMOS:1
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/10/EXERCISE1:S7_BLOCK_TB:1:1
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (0 1)
+\o *Info*    Creating Netlist for Point ID (9 10)
 \o 
 \o generate netlist...
 \o Loading seCore.cxt 
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Jan 10 09:05:13 2020
-\o End netlisting Jan 10 09:05:13 2020
+\o Begin Incremental Netlisting Jan 14 21:51:36 2020
+\o INFO (TECH-150003): The technology database "basic" has been automatically
+\o updated from revision 226610(DM 0) to revision 227612(DM 3) in virtual memory.
+\o End netlisting Jan 14 21:51:36 2020
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -197,30 +207,987 @@
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [
-\o           CHARACTERIZATION:NOISE_NMOS:1 ] for Point ID (0 1).
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1:1
+\o           ] for Point ID (9 10).
 \o 
-\o Delete psf data in /home/saul/Sim/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.23/1/CHARACTERIZATION:NOISE_NMOS:1/psf.
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/10/EXERCISE1:S7_BLOCK_TB:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
 \o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
 \o INFO (ADE-3071): Simulation completed successfully.
 \o reading simulation data...
 \o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/10/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/10/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'10' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
 \o 
-\o *Info*    Run complete for Point ID (0 1) on testbench [
-\o           CHARACTERIZATION:NOISE_NMOS:1 ].
+\o WARNING (OCN-6038): Results ac are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/10/EXERCISE1:S7_BLOCK_TB:1:1/psf. Use results() for a list of available results.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'dB20(IF("/IPRB0/PLUS"))' returned 'nil' for point:'10' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'dB20(IF("/IPRB0/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 10) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\# Available memory:         39,157 MB at UTC 2020.01.10 08:05:18.160
-\# Memory report: Maximum memory size now 39,594 MB at UTC 2020.01.10 08:05:18.160
-\# Thread usage report: 33 active threads, active load 1.00 at UTC 2020.01.10 08:05:18.160
-\o 
-\o *Info*    Received signal SIGTERM.
 \o 
 \o 
-\# Memory report: on exit            437 MB, process size 1,777 MB at UTC 2020.01.10 08:05:18.356
-\# Memory report: peak usage         437 MB, process size 1,777 MB
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 25) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VD = "1.98"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/25/EXERCISE1:S7_BLOCK_TB:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/25/EXERCISE1:S7_BLOCK_TB:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 25)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 14 21:51:38 2020
+\o End netlisting Jan 14 21:51:38 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1:1
+\o           ] for Point ID (9 25).
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/25/EXERCISE1:S7_BLOCK_TB:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/25/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/25/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'25' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results ac are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/25/EXERCISE1:S7_BLOCK_TB:1:1/psf. Use results() for a list of available results.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'dB20(IF("/IPRB0/PLUS"))' returned 'nil' for point:'25' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'dB20(IF("/IPRB0/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 25) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Available memory:         33,897 MB at UTC 2020.01.14 20:51:40.051
+\# Memory report: Maximum memory size now 34,345 MB at UTC 2020.01.14 20:51:40.051
+\# Thread usage report: 33 active threads, active load 1.00 at UTC 2020.01.14 20:51:40.052
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 43) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VD = "1.62"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/43/EXERCISE1:S7_BLOCK_TB:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/43/EXERCISE1:S7_BLOCK_TB:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 43)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 14 21:51:40 2020
+\o End netlisting Jan 14 21:51:40 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1:1
+\o           ] for Point ID (9 43).
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/43/EXERCISE1:S7_BLOCK_TB:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/43/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/43/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'43' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results ac are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/43/EXERCISE1:S7_BLOCK_TB:1:1/psf. Use results() for a list of available results.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'dB20(IF("/IPRB0/PLUS"))' returned 'nil' for point:'43' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'dB20(IF("/IPRB0/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 43) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 60) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VD = "1.98"
+\o Setting temp(T) = -10
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/60/EXERCISE1:S7_BLOCK_TB:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/60/EXERCISE1:S7_BLOCK_TB:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 60)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 14 21:51:41 2020
+\o End netlisting Jan 14 21:51:41 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1:1
+\o           ] for Point ID (9 60).
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/60/EXERCISE1:S7_BLOCK_TB:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/60/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/60/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'60' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results ac are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.13/60/EXERCISE1:S7_BLOCK_TB:1:1/psf. Use results() for a list of available results.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'dB20(IF("/IPRB0/PLUS"))' returned 'nil' for point:'60' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'dB20(IF("/IPRB0/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 60) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = EXERCISE1
+\o 	Cell         = S7_BLOCK_TB
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = EXERCISE1:S7_BLOCK_TB:1:1_EXERCISE1:S7_BLOCK_TB:1:1_state_Interactive.14
+\o 	Results DB   = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14.rdb
+\o 	Results Dir  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/1/EXERCISE1:S7_BLOCK_TB:1:1
+\o 	Results Loc  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/test_xfab1/Sim
+\o 	Setup DB loc = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o variable oasisVariableValue redefined
+\o variable persistNewList redefined
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (10 2) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var FREQ1 = "0"
+\o Setting var FREQ2 = "0"
+\o Setting var IN_AC = "0"
+\o Setting var IN_AM1 = "0"
+\o Setting var IN_AM2 = "0"
+\o Setting var IPULSE = "2u"
+\o Setting var VD = "1.62"
+\o Setting var VD_AC = "1"
+\o Setting var VD_PULSE = "10m"
+\o Setting temp(T) = 27
+\o Setting temp(T) = -10
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/2/EXERCISE1:S7_BLOCK_TB:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/2/EXERCISE1:S7_BLOCK_TB:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (10 2)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 14 21:52:38 2020
+\o End netlisting Jan 14 21:52:39 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1:1
+\o           ] for Point ID (10 2).
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/2/EXERCISE1:S7_BLOCK_TB:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/2/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/2/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'2' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results ac are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/2/EXERCISE1:S7_BLOCK_TB:1:1/psf. Use results() for a list of available results.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'dB20(IF("/IPRB0/PLUS"))' returned 'nil' for point:'2' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'dB20(IF("/IPRB0/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 2) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (10 20) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VD = "1.98"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/20/EXERCISE1:S7_BLOCK_TB:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/20/EXERCISE1:S7_BLOCK_TB:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (10 20)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 14 21:52:40 2020
+\o End netlisting Jan 14 21:52:40 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1:1
+\o           ] for Point ID (10 20).
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/20/EXERCISE1:S7_BLOCK_TB:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/20/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/20/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'20' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results ac are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/20/EXERCISE1:S7_BLOCK_TB:1:1/psf. Use results() for a list of available results.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'dB20(IF("/IPRB0/PLUS"))' returned 'nil' for point:'20' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'dB20(IF("/IPRB0/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 20) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (10 36) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/36/EXERCISE1:S7_BLOCK_TB:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/36/EXERCISE1:S7_BLOCK_TB:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (10 36)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 14 21:52:42 2020
+\o End netlisting Jan 14 21:52:42 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1:1
+\o           ] for Point ID (10 36).
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/36/EXERCISE1:S7_BLOCK_TB:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/36/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/36/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'36' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results ac are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/36/EXERCISE1:S7_BLOCK_TB:1:1/psf. Use results() for a list of available results.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'dB20(IF("/IPRB0/PLUS"))' returned 'nil' for point:'36' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'dB20(IF("/IPRB0/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 36) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (10 54) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VD = "1.62"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/54/EXERCISE1:S7_BLOCK_TB:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/54/EXERCISE1:S7_BLOCK_TB:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (10 54)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 14 21:52:44 2020
+\o End netlisting Jan 14 21:52:44 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1:1
+\o           ] for Point ID (10 54).
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/54/EXERCISE1:S7_BLOCK_TB:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/54/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/54/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'54' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o WARNING (OCN-6038): Results ac are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.14/54/EXERCISE1:S7_BLOCK_TB:1:1/psf. Use results() for a list of available results.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADE-2709): Evaluation of output 'dB20(IF("/IPRB0/PLUS"))' returned 'nil' for point:'54' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'dB20(IF("/IPRB0/PLUS"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (10 54) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = EXERCISE1
+\o 	Cell         = S7_BLOCK_TB
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = EXERCISE1:S7_BLOCK_TB:1:1_EXERCISE1:S7_BLOCK_TB:1:1_state_Interactive.15
+\o 	Results DB   = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15.rdb
+\o 	Results Dir  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/1/EXERCISE1:S7_BLOCK_TB:1:1
+\o 	Results Loc  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/test_xfab1/Sim
+\o 	Setup DB loc = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o variable oasisVariableValue redefined
+\o variable persistNewList redefined
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (11 9) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var FREQ1 = "0"
+\o Setting var FREQ2 = "0"
+\o Setting var IN_AC = "0"
+\o Setting var IN_AM1 = "0"
+\o Setting var IN_AM2 = "0"
+\o Setting var IPULSE = "2u"
+\o Setting var VD = "1.98"
+\o Setting var VD_AC = "1"
+\o Setting var VD_PULSE = "10m"
+\o Setting temp(T) = 27
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/9/EXERCISE1:S7_BLOCK_TB:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/9/EXERCISE1:S7_BLOCK_TB:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (11 9)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 14 21:53:24 2020
+\o End netlisting Jan 14 21:53:24 2020
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   58
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1:1
+\o           ] for Point ID (11 9).
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/9/EXERCISE1:S7_BLOCK_TB:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/9/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/9/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'9' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 9) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (11 22) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VD = "1.62"
+\o Setting temp(T) = -10
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/22/EXERCISE1:S7_BLOCK_TB:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/22/EXERCISE1:S7_BLOCK_TB:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (11 22)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 14 21:53:26 2020
+\o End netlisting Jan 14 21:53:26 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1:1
+\o           ] for Point ID (11 22).
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/22/EXERCISE1:S7_BLOCK_TB:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/22/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/22/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'22' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 22) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (11 34) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/34/EXERCISE1:S7_BLOCK_TB:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/34/EXERCISE1:S7_BLOCK_TB:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (11 34)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 14 21:53:27 2020
+\o End netlisting Jan 14 21:53:27 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1:1
+\o           ] for Point ID (11 34).
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/34/EXERCISE1:S7_BLOCK_TB:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/34/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/34/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'34' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 34) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (11 47) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/47/EXERCISE1:S7_BLOCK_TB:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/47/EXERCISE1:S7_BLOCK_TB:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (11 47)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 14 21:53:29 2020
+\o End netlisting Jan 14 21:53:29 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1:1
+\o           ] for Point ID (11 47).
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/47/EXERCISE1:S7_BLOCK_TB:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/47/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/47/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'47' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 47) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (11 62) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = -10
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/62/EXERCISE1:S7_BLOCK_TB:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/62/EXERCISE1:S7_BLOCK_TB:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (11 62)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 14 21:53:30 2020
+\o End netlisting Jan 14 21:53:31 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1:1
+\o           ] for Point ID (11 62).
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/62/EXERCISE1:S7_BLOCK_TB:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/62/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o WARNING (OCN-6038): Results noise are not available for /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.15/62/EXERCISE1:S7_BLOCK_TB:1:1. Use results() for a list of available results.
+\o ERROR (ADE-2709): Evaluation of output 'input noise; A / sqrt(Hz)' returned 'nil' for point:'62' test:'EXERCISE1:S7_BLOCK_TB:1:1'
+\o 	Expression:'getData("in" ?result "noise")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 62) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Memory report: on exit            455 MB, process size 1,792 MB at UTC 2020.01.14 20:58:38.210
+\# Memory report: peak usage         455 MB, process size 1,792 MB

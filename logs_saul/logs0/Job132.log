@@ -1,0 +1,608 @@
+\# Program start time:     UTC 2020.01.14 23:19:03.058
+\# Local time: CET (UTC+01:00) 2020.01.15 00:19:03.058
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 10/08/2019 20:07 (sjfhw316) $
+\o Hierarchy:		/pkg/cadence/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.7  (64-bit addresses)
+\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso18163 -mpshost s2424 -davinciService DaVinciService_18163_1579037506 -log /home/saul/projects/test_xfab1/logs_saul/logs0/Job132.log -licenseLockFileName /home/saul/projects/test_xfab1/.tmp_saul/.s2424_18163 -interactiveA -interactiveE -interactiveRTT -nostdin -nograph -axlChildIdFlag 132
+\# Host name (type):	s2424 (x86_64)
+\# Operating system:	Linux 3.10.0-1062.4.3.el7.x86_64 #1 SMP Wed Nov 13 23:58:53 UTC 2019
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:95 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 24021)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x4c00000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        517 MB
+\# Available memory:	     38,050 MB
+\# System memory:	     96,361 MB
+\# Maximum memory size:	     95,983 MB
+\# Max mem available:	     38,189 MB
+\# Initial memory used:	        139 MB
+\#        process size:	      1,378 MB
+\# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 32.00/32.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	s2424:/home/saul/projects/test_xfab1
+\# Process Id:		24832
+\o 
+\o COPYRIGHT (C) 1992-2019  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2019  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\# Memory report: using         243 MB, process size 1,477 MB at UTC 2020.01.14 23:19:04.102
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading cli.cxt 
+\o Loading cle.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso18163, host=s2424). ICRP is turned on. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 24832 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\o Loading .cdsinit for the XH018 X-Fab XKit.
+\o     LOAD xh018_1151 SPECIFIC CALL-BACK ROUTINES
+\o     LOAD ALL AVAILABLE P-CELL FUNCTIONS
+\o ** Info: PDK loadpath is "./.xkit/setup/xh018/cadence/PDK"
+\o Loading XfPcellCore.cxt
+\o Loading XfSktTools.cxt
+\o Loading XfTechXh018.cxt
+\o nil
+\o Initializing library.
+\o Finished Initializing Library .
+\o     Generic PcellKit: 'production' loaded.
+\o     Generic Pcell Skill Tools: 'production' loaded.
+\o Loading Circuit Prospector Setup (XfCircuitProspSetup.il)
+\o "XfDtbSkill package succesfully loaded."
+\o     Generic Dcells Tool Box: 'Dcells_Toolbox_v1.2.0' loaded.
+\o     LOAD THE ENVIRONMENT FILE
+\o  --> Setting the required PDK definitions...
+\o     GDSII LAYER MAPPING FILE = "./.xkit/setup/xh018/cadence/PDK/TECH_XH018_1151/strmInOut.layertable"
+\o     GDSII OBJECT MAPPING FILE = "./.xkit/setup/xh018/cadence/PDK/TECH_XH018_1151/strmOutObjects.map"
+\o Use model setup from PDK...
+\o Loading spectrei.cxt 
+\# Memory report: using         376 MB, process size 1,688 MB at UTC 2020.01.14 23:19:06.079
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading vdsil.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o Loading msgHandler.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o  --> Finished setting the required PDK definitions
+\o  --> Setting the recommended EDA tool defaults...
+\o  --> Finished setting the recommended EDA tool defaults
+\o     LOAD DEFAULT BINDKEYS
+\o Loading viva.cxt 
+\o *Info*    Client has finished starting ... 
+\o 
+\p > 
+\a _treeSetOpcGUI(t)
+\r t
+\o Loading vqp.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = EXERCISE1
+\o 	Cell         = S7_BLOCK_TB
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = EXERCISE1:S7_BLOCK_TB:1:1_EXERCISE1:S7_BLOCK_TB:1:1_state_MonteCarlo.1
+\o 	Results DB   = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/MonteCarlo.1.rdb
+\o 	Results Dir  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/MonteCarlo.1/14/EXERCISE1:S7_BLOCK_TB:1:1
+\o 	Results Loc  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/test_xfab1/Sim
+\o 	Setup DB loc = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading simui.cxt 
+\o INFO (TECH-150003): The technology database "analogLib" has been automatically
+\o updated from revision 226610(DM 0) to revision 227612(DM 3) in virtual memory.
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o     LOAD GENERIC "X-KIT" SKILL CONTEXT "./.xkit/setup/x_all/cadence/xenv/skill/context6/xkit.cxt" 
+\o  - Menu "XKit Utilities" installed to CIW.
+\o     LOAD ".cdsinit_personal" FILE FROM THE WORKING DIRECTORY.
+\o  --> LOAD USER CUSTOMIZATION
+\o     INFO: To customize this setup, please use the following environment variables:
+\o           CUSTOM_SCRIPT_PATH - should point to the master shell or perl script
+\o                              e.g.:
+\o                              setenv CUSTOM_SCRIPT_PATH /path/to/my/script/LoadMyScripts.csh
+\o           CUSTOM_SKILL_PATH - should point to your master skill load file
+\o                              e.g.:
+\o                              setenv CUSTOM_SKILL_PATH /path/to/my/skill/LoadMySkills.il
+\o  --> END OF USER CUSTOMIZATION
+\o  -> END LOAD ".cdsinit" FILE
+\o Loading monte.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (11 27) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var FREQ1 = "0"
+\o Setting var FREQ2 = "0"
+\o Setting var IN_AC = "1"
+\o Setting var IN_AM1 = "0"
+\o Setting var IN_AM2 = "0"
+\o Setting var IPULSE = "0"
+\o Setting var IPULSE_BIAS = "0"
+\o Setting var VD = "1.8"
+\o Setting var VD_AC = "0"
+\o Setting var VD_PULSE = "0"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/MonteCarlo.1/27/EXERCISE1:S7_BLOCK_TB:1:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/MonteCarlo.1/27/EXERCISE1:S7_BLOCK_TB:1:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (11 27)
+\o 
+\o INFO (TECH-150003): The technology database "basic" has been automatically
+\o updated from revision 226610(DM 0) to revision 227612(DM 3) in virtual memory.
+\o generate netlist...
+\o Loading seCore.cxt 
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 15 00:19:08 2020
+\o End netlisting Jan 15 00:19:08 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1:1
+\o           ] for Point ID (11 27).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/MonteCarlo.1/27/EXERCISE1:S7_BLOCK_TB:1:1/groupRunDataDir/psf.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 15 00:19:08 2020
+\o End netlisting Jan 15 00:19:08 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o Loading stats.cxt 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 27) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 28) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 29) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 30) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 31) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 32) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 33) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Available memory:         33,369 MB at UTC 2020.01.14 23:19:13.106
+\# Memory report: Maximum memory size now 33,816 MB at UTC 2020.01.14 23:19:13.106
+\# Thread usage report: 34 active threads, active load 1.00 at UTC 2020.01.14 23:19:13.106
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 34) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 35) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 36) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 37) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 38) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (11 39) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 34,620 MB at UTC 2020.01.14 23:19:23.160
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = EXERCISE1
+\o 	Cell         = S7_BLOCK_TB
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = EXERCISE1:S7_BLOCK_TB:1:1_EXERCISE1:S7_BLOCK_TB:1:1_state_MonteCarlo.2
+\o 	Results DB   = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/MonteCarlo.2.rdb
+\o 	Results Dir  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/MonteCarlo.2/1/EXERCISE1:S7_BLOCK_TB:1:1
+\o 	Results Loc  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/test_xfab1/Sim
+\o 	Setup DB loc = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o variable oasisVariableValue redefined
+\o variable persistNewList redefined
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (12 118) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var FREQ1 = "0"
+\o Setting var FREQ2 = "0"
+\o Setting var IN_AC = "1"
+\o Setting var IN_AM1 = "0"
+\o Setting var IN_AM2 = "0"
+\o Setting var IPULSE = "0"
+\o Setting var IPULSE_BIAS = "0"
+\o Setting var VD = "1.8"
+\o Setting var VD_AC = "0"
+\o Setting var VD_PULSE = "0"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/MonteCarlo.2/118/EXERCISE1:S7_BLOCK_TB:1:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/MonteCarlo.2/118/EXERCISE1:S7_BLOCK_TB:1:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (12 118)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 15 00:20:49 2020
+\o End netlisting Jan 15 00:20:49 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1:1
+\o           ] for Point ID (12 118).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/MonteCarlo.2/118/EXERCISE1:S7_BLOCK_TB:1:1/groupRunDataDir/psf.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 15 00:20:49 2020
+\o End netlisting Jan 15 00:20:49 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\# Memory report: Maximum memory size now 33,591 MB at UTC 2020.01.14 23:20:53.159
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 118) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 119) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 120) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 121) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 122) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 123) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 124) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 125) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 126) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 127) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 128) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 129) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (12 130) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\# Memory report: Maximum memory size now 34,287 MB at UTC 2020.01.14 23:21:03.160
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Memory report: on exit            454 MB, process size 1,864 MB at UTC 2020.01.14 23:26:38.288
+\# Memory report: peak usage         454 MB, process size 1,864 MB

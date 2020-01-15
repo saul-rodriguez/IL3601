@@ -1,5 +1,7 @@
 simulator( 'spectre )
-design(	 "/home/saul/projects/test_xfab1/Sim/FAST_BIAS/spectre/schematic/netlist/netlist")
+;design(	 "/home/saul/projects/test_xfab1/Sim/FAST_BIAS/spectre/schematic/netlist/netlist")
+design( "CHARACTERIZATION" "FAST_BIAS" "schematic")
+createNetlist
 resultsDir( "/home/saul/projects/test_xfab1/Sim/FAST_BIAS/spectre/schematic" )
 
 load("OS/CHARACTERIZATION/global.il")

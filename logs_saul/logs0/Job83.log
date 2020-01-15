@@ -1,28 +1,28 @@
-\# Program start time:     UTC 2020.01.10 09:03:11.515
-\# Local time: CET (UTC+01:00) 2020.01.10 10:03:11.515
+\# Program start time:     UTC 2020.01.14 22:55:13.980
+\# Local time: CET (UTC+01:00) 2020.01.14 23:55:13.980
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 10/08/2019 20:07 (sjfhw316) $
 \o Hierarchy:		/pkg/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.7  (64-bit addresses)
-\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso20921 -mpshost s2424 -davinciService DaVinciService_20921_1578642063 -log /home/saul/projects/test_xfab1/logs_saul/logs0/Job83.log -licenseLockFileName /home/saul/projects/test_xfab1/.tmp_saul/.s2424_20921 -interactiveA -interactiveE -interactiveRTT -nostdin -nograph -axlChildIdFlag 83
+\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso18163 -mpshost s2424 -davinciService DaVinciService_18163_1579037506 -log /home/saul/projects/test_xfab1/logs_saul/logs0/Job83.log -licenseLockFileName /home/saul/projects/test_xfab1/.tmp_saul/.s2424_18163 -interactiveA -interactiveE -interactiveRTT -nostdin -nograph -axlChildIdFlag 83
 \# Host name (type):	s2424 (x86_64)
 \# Operating system:	Linux 3.10.0-1062.4.3.el7.x86_64 #1 SMP Wed Nov 13 23:58:53 UTC 2019
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
 \# X display name (WxH):	:95 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			RealVNC Ltd (VNC nograph server, PID 29010)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 23474)
 \# Depth of Visual (Root):	16 (16)
 \# Number of Planes Used:	16
 \# X version:		11.0 (vendor release 3370)
-\# X resource pool:	base 0xc00000, mask 0x3fffff (4194303), shift 0
+\# X resource pool:	base 0x1c00000, mask 0x3fffff (4194303), shift 0
 \# 			current id 0x0, current max 0x3ffffa (4194298)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        514 MB
-\# Available memory:	     39,576 MB
+\# Initial sbrk value:	        528 MB
+\# Available memory:	     38,309 MB
 \# System memory:	     96,361 MB
-\# Maximum memory size:	     95,986 MB
-\# Max mem available:	     39,715 MB
+\# Maximum memory size:	     95,972 MB
+\# Max mem available:	     38,448 MB
 \# Initial memory used:	        139 MB
 \#        process size:	      1,378 MB
 \# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 32.00/32.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		saul
 \o Working Directory:	s2424:/home/saul/projects/test_xfab1
-\# Process Id:		28705
+\# Process Id:		24205
 \o 
 \o COPYRIGHT (C) 1992-2019  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2019  UNIX SYSTEMS Laboratories INC.,
@@ -61,7 +61,6 @@
 \o Loading asimenv.cxt 
 \o Loading dal.cxt 
 \o Loading awv.cxt 
-\# Memory report: using         243 MB, process size 1,477 MB at UTC 2020.01.10 09:03:14.037
 \o Loading socket.cxt 
 \o Loading par.cxt 
 \o Loading alvs.cxt 
@@ -73,11 +72,12 @@
 \o 
 \o Loading cli.cxt 
 \o Loading cle.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso20921, host=s2424). ICRP is turned on. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso18163, host=s2424). ICRP is turned on. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 28705 within 90 seconds is being processed...
-\o INFO (ELI-00305) The result of registration is true. Time spent is 1 seconds.
-\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 1 seconds.
+\o INFO (ELI-00304) The registration of the child 24205 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# Memory report: using         312 MB, process size 1,626 MB at UTC 2020.01.14 22:55:16.808
 \o Loading .cdsinit for the XH018 X-Fab XKit.
 \o     LOAD xh018_1151 SPECIFIC CALL-BACK ROUTINES
 \o     LOAD ALL AVAILABLE P-CELL FUNCTIONS
@@ -100,7 +100,6 @@
 \o Use model setup from PDK...
 \o Loading spectrei.cxt 
 \o Loading devCheck.cxt 
-\# Memory report: using         382 MB, process size 1,694 MB at UTC 2020.01.10 09:03:16.006
 \o Loading relXpert.cxt 
 \o Loading vdsil.cxt 
 \o Loading hspiceD.cxt 
@@ -120,24 +119,28 @@
 \a _treeSetOpcGUI(t)
 \r t
 \o Loading vqp.cxt 
-\o Loading simui.cxt 
 \o 
 \o 
 \o *Info*    Configuring the session ...
 \o 
-\o 	Library      = CHARACTERIZATION
-\o 	Cell         = NOISE_NMOS
+\o 	Library      = EXERCISE1
+\o 	Cell         = S7_BLOCK_TB
 \o 	View         = schematic
-\o 	Netlist  	  = nil
 \o 	Simulator    = spectre
 \o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = CHARACTERIZATION:NOISE_NMOS:1_CHARACTERIZATION:NOISE_NMOS:1_Jan_10_10_02_58_2020_Ocean.27
-\o 	Results DB   = /home/saul/projects/test_xfab1/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.27.rdb
-\o 	Setup DB loc = /home/saul/projects/test_xfab1/CHARACTERIZATION/NOISE_NMOS/adexl
+\o 	State Name   = EXERCISE1:S7_BLOCK_TB:1_none_Interactive.5
+\o 	Results DB   = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.5.rdb
+\o 	Results Dir  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.5/2/EXERCISE1:S7_BLOCK_TB:1
+\o 	Results Loc  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/test_xfab1/Sim
+\o 	Setup DB loc = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl
+\o 	File Encoding = 0
 \o 
 \o 
+\o Loading simui.cxt 
 \o INFO (TECH-150003): The technology database "analogLib" has been automatically
 \o updated from revision 226610(DM 0) to revision 227612(DM 3) in virtual memory.
+\# Memory report: using         432 MB, process size 1,740 MB at UTC 2020.01.14 22:55:19.238
 \o 
 \o *Info*    The auto suspension is disabled.
 \o 
@@ -160,36 +163,42 @@
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (0 1) on testbench [
-\o           CHARACTERIZATION:NOISE_NMOS:1 ].
+\o *Info*    Run start for Point ID (5 7) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1 ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var IDS = "0.0008"
-\o Setting var L = "180e-9"
-\o Setting var NF = "80"
-\o Setting var VDS = "1"
-\o Setting var WF = "20e-6"
+\o Setting var FREQ1 = "0"
+\o Setting var FREQ2 = "0"
+\o Setting var IN_AC = "0"
+\o Setting var IN_AM1 = "0"
+\o Setting var IN_AM2 = "0"
+\o Setting var IPULSE = "0"
+\o Setting var VD = "1.98"
+\o Setting var VD_AC = "0"
+\o Setting var VD_PULSE = "-1.8"
 \o Setting temp(T) = 27
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/Sim/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.27/1/CHARACTERIZATION:NOISE_NMOS:1/netlist
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.5/7/EXERCISE1:S7_BLOCK_TB:1/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/Sim/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.27/1/CHARACTERIZATION:NOISE_NMOS:1
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.5/7/EXERCISE1:S7_BLOCK_TB:1
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (0 1)
+\o *Info*    Creating Netlist for Point ID (5 7)
 \o 
 \o generate netlist...
 \o Loading seCore.cxt 
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Jan 10 10:03:17 2020
-\o End netlisting Jan 10 10:03:17 2020
+\o Begin Incremental Netlisting Jan 14 23:55:19 2020
+\o INFO (TECH-150003): The technology database "basic" has been automatically
+\o updated from revision 226610(DM 0) to revision 227612(DM 3) in virtual memory.
+\o End netlisting Jan 14 23:55:19 2020
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -197,30 +206,376 @@
 \o compose simulator input file...
 \o       ...successful.
 \o 
-\o *Info*    Running simulation on testbench [
-\o           CHARACTERIZATION:NOISE_NMOS:1 ] for Point ID (0 1).
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1 ]
+\o           for Point ID (5 7).
 \o 
-\o Delete psf data in /home/saul/Sim/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.27/1/CHARACTERIZATION:NOISE_NMOS:1/psf.
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.5/7/EXERCISE1:S7_BLOCK_TB:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
 \o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
 \o INFO (ADE-3071): Simulation completed successfully.
 \o reading simulation data...
 \o       ...successful.
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (0 1) on testbench [
-\o           CHARACTERIZATION:NOISE_NMOS:1 ].
+\o *Info*    Run complete for Point ID (5 7) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1 ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\# Available memory:         39,093 MB at UTC 2020.01.10 09:03:22.571
-\# Memory report: Maximum memory size now 39,529 MB at UTC 2020.01.10 09:03:22.571
-\# Thread usage report: 33 active threads, active load 1.00 at UTC 2020.01.10 09:03:22.571
-\o 
-\o *Info*    Received signal SIGTERM.
 \o 
 \o 
-\# Memory report: on exit            437 MB, process size 1,777 MB at UTC 2020.01.10 09:03:22.579
-\# Memory report: peak usage         437 MB, process size 1,777 MB
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (5 21) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.5/21/EXERCISE1:S7_BLOCK_TB:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.5/21/EXERCISE1:S7_BLOCK_TB:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (5 21)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 14 23:55:21 2020
+\o End netlisting Jan 14 23:55:21 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1 ]
+\o           for Point ID (5 21).
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.5/21/EXERCISE1:S7_BLOCK_TB:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (5 21) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Available memory:         34,489 MB at UTC 2020.01.14 22:55:24.160
+\# Memory report: Maximum memory size now 34,936 MB at UTC 2020.01.14 22:55:24.160
+\# Thread usage report: 33 active threads, active load 1.00 at UTC 2020.01.14 22:55:24.160
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = EXERCISE1
+\o 	Cell         = S7_BLOCK_TB
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = EXERCISE1:S7_BLOCK_TB:1_none_Interactive.6
+\o 	Results DB   = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6.rdb
+\o 	Results Dir  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6/1/EXERCISE1:S7_BLOCK_TB:1
+\o 	Results Loc  = /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/test_xfab1/Sim
+\o 	Setup DB loc = /home/saul/projects/test_xfab1/EXERCISE1/S7_BLOCK_TB/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o variable oasisVariableValue redefined
+\o variable persistNewList redefined
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (6 8) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var FREQ1 = "0"
+\o Setting var FREQ2 = "0"
+\o Setting var IN_AC = "0"
+\o Setting var IN_AM1 = "0"
+\o Setting var IN_AM2 = "0"
+\o Setting var IPULSE = "0"
+\o Setting var VD = "1.98"
+\o Setting var VD_AC = "0"
+\o Setting var VD_PULSE = "-1.8"
+\o Setting temp(T) = 27
+\o Setting temp(T) = -10
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6/8/EXERCISE1:S7_BLOCK_TB:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6/8/EXERCISE1:S7_BLOCK_TB:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (6 8)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 14 23:56:24 2020
+\o End netlisting Jan 14 23:56:24 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1 ]
+\o           for Point ID (6 8).
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6/8/EXERCISE1:S7_BLOCK_TB:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (6 8) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (6 32) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6/32/EXERCISE1:S7_BLOCK_TB:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6/32/EXERCISE1:S7_BLOCK_TB:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (6 32)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 14 23:56:27 2020
+\o End netlisting Jan 14 23:56:27 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1 ]
+\o           for Point ID (6 32).
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6/32/EXERCISE1:S7_BLOCK_TB:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (6 32) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (6 49) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6/49/EXERCISE1:S7_BLOCK_TB:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6/49/EXERCISE1:S7_BLOCK_TB:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (6 49)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 14 23:56:28 2020
+\o End netlisting Jan 14 23:56:28 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1 ]
+\o           for Point ID (6 49).
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6/49/EXERCISE1:S7_BLOCK_TB:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (6 49) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (6 63) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VD = "1.62"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6/63/EXERCISE1:S7_BLOCK_TB:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6/63/EXERCISE1:S7_BLOCK_TB:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (6 63)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 14 23:56:30 2020
+\o End netlisting Jan 14 23:56:30 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ EXERCISE1:S7_BLOCK_TB:1 ]
+\o           for Point ID (6 63).
+\o 
+\o Delete psf data in /home/saul/Sim/EXERCISE1/S7_BLOCK_TB/adexl/results/data/Interactive.6/63/EXERCISE1:S7_BLOCK_TB:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (6 63) on testbench [
+\o           EXERCISE1:S7_BLOCK_TB:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Memory report: on exit            452 MB, process size 1,789 MB at UTC 2020.01.14 23:01:32.194
+\# Memory report: peak usage         452 MB, process size 1,789 MB
