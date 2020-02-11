@@ -24,7 +24,7 @@ modelFile(
 )
 
 load("OS/CHARACTERIZATION/global.il")
-FLOW = 100.0 ; Lower frequency 
+FLOW = 1.0 ; Lower frequency 
 FHIGH = 300.0e6 ; Higher frequency
 
 analysis('dc ?saveOppoint t  )

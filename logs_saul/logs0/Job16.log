@@ -1,28 +1,28 @@
-\# Program start time:     UTC 2020.01.15 06:02:55.985
-\# Local time: CET (UTC+01:00) 2020.01.15 07:02:55.985
+\# Program start time:     UTC 2020.01.17 07:58:45.135
+\# Local time: CET (UTC+01:00) 2020.01.17 08:58:45.135
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 10/08/2019 20:07 (sjfhw316) $
 \o Hierarchy:		/pkg/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.7  (64-bit addresses)
-\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso4509 -mpshost s2424 -davinciService DaVinciService_4509_1579068083 -log /home/saul/projects/test_xfab1/logs_saul/logs0/Job16.log -licenseLockFileName /home/saul/projects/test_xfab1/.tmp_saul/.s2424_4509 -interactiveA -interactiveE -interactiveRTT -nostdin -nograph -axlChildIdFlag 16
+\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso7951 -mpshost s2424 -davinciService DaVinciService_7951_1579244612 -log /home/saul/projects/test_xfab1/logs_saul/logs0/Job16.log -licenseLockFileName /home/saul/projects/test_xfab1/.tmp_saul/.s2424_7951 -interactiveA -interactiveE -interactiveRTT -nostdin -nograph -axlChildIdFlag 16
 \# Host name (type):	s2424 (x86_64)
 \# Operating system:	Linux 3.10.0-1062.4.3.el7.x86_64 #1 SMP Wed Nov 13 23:58:53 UTC 2019
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
 \# X display name (WxH):	:95 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			RealVNC Ltd (VNC nograph server, PID 13895)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 15972)
 \# Depth of Visual (Root):	16 (16)
 \# Number of Planes Used:	16
 \# X version:		11.0 (vendor release 3370)
-\# X resource pool:	base 0x4c00000, mask 0x3fffff (4194303), shift 0
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
 \# 			current id 0x0, current max 0x3ffffa (4194298)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        534 MB
-\# Available memory:	     38,112 MB
+\# Initial sbrk value:	        538 MB
+\# Available memory:	     39,115 MB
 \# System memory:	     96,361 MB
-\# Maximum memory size:	     95,966 MB
-\# Max mem available:	     38,251 MB
+\# Maximum memory size:	     95,962 MB
+\# Max mem available:	     39,253 MB
 \# Initial memory used:	        139 MB
 \#        process size:	      1,378 MB
 \# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 32.00/32.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		saul
 \o Working Directory:	s2424:/home/saul/projects/test_xfab1
-\# Process Id:		14963
+\# Process Id:		16011
 \o 
 \o COPYRIGHT (C) 1992-2019  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2019  UNIX SYSTEMS Laboratories INC.,
@@ -72,12 +72,12 @@
 \o 
 \o Loading cli.cxt 
 \o Loading cle.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso4509, host=s2424). ICRP is turned on. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso7951, host=s2424). ICRP is turned on. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 14963 within 90 seconds is being processed...
+\o INFO (ELI-00304) The registration of the child 16011 within 90 seconds is being processed...
 \o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
 \o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\# Memory report: using         312 MB, process size 1,626 MB at UTC 2020.01.15 06:02:58.573
+\# Memory report: using         312 MB, process size 1,626 MB at UTC 2020.01.17 07:58:47.801
 \o Loading .cdsinit for the XH018 X-Fab XKit.
 \o     LOAD xh018_1151 SPECIFIC CALL-BACK ROUTINES
 \o     LOAD ALL AVAILABLE P-CELL FUNCTIONS
@@ -118,28 +118,6 @@
 \p > 
 \a _treeSetOpcGUI(t)
 \r t
-\o Loading vqp.cxt 
-\o Loading simui.cxt 
-\o 
-\o 
-\o *Info*    Configuring the session ...
-\o 
-\o 	Library      = CHARACTERIZATION
-\o 	Cell         = DC_BIAS_NMOS
-\o 	View         = schematic
-\o 	Netlist  	  = nil
-\o 	Simulator    = spectre
-\o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = CHARACTERIZATION:DC_BIAS_NMOS:VGS_CHARACTERIZATION:DC_BIAS_NMOS:VGS_Jan_15_07_02_47_2020_Ocean.13
-\o 	Results DB   = /home/saul/projects/test_xfab1/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.13.rdb
-\o 	Setup DB loc = /home/saul/projects/test_xfab1/CHARACTERIZATION/DC_BIAS_NMOS/adexl
-\o 
-\o 
-\o INFO (TECH-150003): The technology database "analogLib" has been automatically
-\o updated from revision 226610(DM 0) to revision 227612(DM 3) in virtual memory.
-\o 
-\o *Info*    The auto suspension is disabled.
-\o 
 \o     LOAD GENERIC "X-KIT" SKILL CONTEXT "./.xkit/setup/x_all/cadence/xenv/skill/context6/xkit.cxt" 
 \o  - Menu "XKit Utilities" installed to CIW.
 \o     LOAD ".cdsinit_personal" FILE FROM THE WORKING DIRECTORY.
@@ -153,236 +131,13 @@
 \o                              setenv CUSTOM_SKILL_PATH /path/to/my/skill/LoadMySkills.il
 \o  --> END OF USER CUSTOMIZATION
 \o  -> END LOAD ".cdsinit" FILE
-\o Loading monte.cxt 
+\# Available memory:         38,892 MB at UTC 2020.01.17 07:58:56.160
+\# Memory report: Maximum memory size now 39,311 MB at UTC 2020.01.17 07:58:56.160
+\# Thread usage report: 33 active threads, active load 1.00 at UTC 2020.01.17 07:58:56.160
+\# Memory report: using         418 MB, process size 1,737 MB at UTC 2020.01.17 07:58:56.160
+\o Job 16 timed out after no activity in 300 seconds.
+\o Loading simui.cxt 
 \o 
+\o *Info*    Received signal SIGTERM.
 \o 
 \o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 3) on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:VGS ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var VDS = "0.2"
-\o Setting var VGS = "1"
-\o Setting temp(T) = 27
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.13/3/CHARACTERIZATION:DC_BIAS_NMOS:VGS/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.13/3/CHARACTERIZATION:DC_BIAS_NMOS:VGS
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 3)
-\o 
-\o generate netlist...
-\o Loading seCore.cxt 
-\o function ansCdlCompPrim redefined
-\# Memory report: using         426 MB, process size 1,742 MB at UTC 2020.01.15 06:03:01.019
-\o function ansCdlCompPrim redefined
-\o Initializing the control file using cp:
-\o     cp /pkg/cadence/installs/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.13/3/CHARACTERIZATION:DC_BIAS_NMOS:VGS/netlist/control
-\o Copying Spectre source file 'spectre.inp'
-\o Copying Spectre command file 'spectre.sim'
-\o Begin Incremental Netlisting Jan 15 07:03:01 2020
-\o End netlisting Jan 15 07:03:01 2020
-\o 
-\o Netlisting Statistics:
-\o 	Number of components:    3
-\o 
-\o 	Elapsed time:          0.0s
-\o Errors: 0	Warnings: 0
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:VGS ] for Point ID (0 3).
-\o 
-\o Delete psf data in /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.13/3/CHARACTERIZATION:DC_BIAS_NMOS:VGS/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 3) on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:VGS ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 7) on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:VGS ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var VDS = "0.6"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.13/7/CHARACTERIZATION:DC_BIAS_NMOS:VGS/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.13/7/CHARACTERIZATION:DC_BIAS_NMOS:VGS
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 7)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Jan 15 07:03:02 2020
-\o End netlisting Jan 15 07:03:02 2020
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:VGS ] for Point ID (0 7).
-\o 
-\o Delete psf data in /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.13/7/CHARACTERIZATION:DC_BIAS_NMOS:VGS/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 7) on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:VGS ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 13) on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:VGS ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var VDS = "1.2"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.13/13/CHARACTERIZATION:DC_BIAS_NMOS:VGS/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.13/13/CHARACTERIZATION:DC_BIAS_NMOS:VGS
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 13)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Jan 15 07:03:03 2020
-\o End netlisting Jan 15 07:03:03 2020
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:VGS ] for Point ID (0 13).
-\o 
-\o Delete psf data in /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.13/13/CHARACTERIZATION:DC_BIAS_NMOS:VGS/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 13) on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:VGS ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 19) on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:VGS ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var VDS = "1.8"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.13/19/CHARACTERIZATION:DC_BIAS_NMOS:VGS/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.13/19/CHARACTERIZATION:DC_BIAS_NMOS:VGS
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 19)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Jan 15 07:03:05 2020
-\o End netlisting Jan 15 07:03:05 2020
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:VGS ] for Point ID (0 19).
-\o 
-\o Delete psf data in /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.13/19/CHARACTERIZATION:DC_BIAS_NMOS:VGS/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\# Available memory:         35,193 MB at UTC 2020.01.15 06:03:06.033
-\# Memory report: Maximum memory size now 35,630 MB at UTC 2020.01.15 06:03:06.033
-\# Thread usage report: 33 active threads, active load 1.00 at UTC 2020.01.15 06:03:06.033
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 19) on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:VGS ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\# Memory report: on exit            437 MB, process size 1,777 MB at UTC 2020.01.15 06:03:08.680
-\# Memory report: peak usage         437 MB, process size 1,777 MB

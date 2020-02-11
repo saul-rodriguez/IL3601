@@ -1,41 +1,185 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 09/03/2019 21:35 (ip-172-18-22-89) $
 \o Sub version:		sub-version  s061 
-\o Arguments:		-mpssession virtuoso30327 -mpshost s2424 
+\o Arguments:		-mpssession virtuoso23051 -mpshost s2424 
 \o Working Directory:	s2424:/home/saul/projects/test_xfab1
 \o 64-bit offsets
 \o Qt version: 		5.9.1
 \o Log file is "/home/saul/projects/test_xfab1/libManager.log".
 \o Opening libManager window.
-\a nrResizeWindow(cdsLibManager list(407 276 1173 464))
 \a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(410 98 837 464))
 \o changeWorkingDir("/home/saul/projects/test_xfab1") unnecessary.
 \o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
 \o Library Manager customization server connected.
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrResizeWindow(cdsLibManager list(2044 115 837 464))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(2006 153 837 464))
+\a nrResizeWindow(cdsLibManager list(2014 159 837 464))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewLibButton->value = t
+\a nrSetWindowVisibility(NewLibShell "show")
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a nrResizeWindow(NewLibShell list(2169 72 507 559))
+\a NewLibShell->newLibNameText->value = "DAY3"
+\a nrDialogAccept(NewLibShell)
+\a NewLibShell->newLibOKButton->value = t
+\a nrSetWindowVisibility(workingDialogForm "show")
+\o Created new library "DAY3" at /home/saul/projects/test_xfab1/DAY3.
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(2286 255 273 133))
+\a nrResizeWindow(NewLibShell list(2169 42 507 559))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "DAY3"
+\a cdsLibManager->libLineEdit->value = "DAY3"
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1920 0 1920 1052))
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a cdsLibManager->cellListBox->value = "S5_STATIC_LIN"
-\a cdsLibManager->cellLineEdit->value = "S5_STATIC_LIN"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_8"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_8"
+\a nrResizeWindow(cdsLibManager list(1996 155 837 464))
+\a nrResizeWindow(cdsLibManager list(2004 160 837 464))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(2004 160 866 511))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "DAY2"
+\a cdsLibManager->libLineEdit->value = "DAY2"
+\a cdsLibManager->cellListBox->value = "TRANS"
+\a cdsLibManager->cellLineEdit->value = "TRANS"
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_8_1"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_8_1"
+\a lmgrLogShowPopup("mainListPopup2" 52 7 2 "schematic")
+\a cdsLibManager->FileOpenROButton->value = t
+\o MPS request: open design readonly
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "DAY2"
+\a cdsLibManager->libLineEdit->value = "DAY2"
+\a cdsLibManager->cellListBox->value = "TRANS"
+\a cdsLibManager->cellLineEdit->value = "TRANS"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "TRANS"
+\a cdsLibManager->cellLineEdit->value = "TRANS"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_8"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_8"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "DAY3"
+\a cdsLibManager->libLineEdit->value = "DAY3"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "DAY2"
+\a cdsLibManager->libLineEdit->value = "DAY2"
+\a cdsLibManager->cellListBox->value = "TRANS"
+\a cdsLibManager->cellLineEdit->value = "TRANS"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a lmgrLogShowPopup("mainListPopup2" 51 8 2 "schematic")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a copyViewForm->CopyFromLibrary->value = "CHARACTERIZATION"
+\a copyViewForm->CopyToLibrary->value = "CHARACTERIZATION"
+\a copyViewForm->CopyFromLibrary->value = "DAY2"
+\a copyViewForm->CopyFromCell->value = "TRANS"
+\a copyViewForm->CopyFromView->value = "schematic"
+\a copyViewForm->CopyToLibrary->value = "DAY2"
+\a copyViewForm->CopyToCell->value = "TRANS"
+\a copyViewForm->CopyToView->value = "schematic"
+\a copyViewForm->ViewsToCopy->value = "schematic"
+\a copyViewForm->SkipLibrariesEdit->value = ""
+\a copyViewForm->SkipLibrariesEdit->value = "CHARACTERIZATION CadenceLibs DAY1 DAY3 D_CELLS_3V D_CELLS_HD D_CELLS_HDLL D_CELLS_HDMT D_CELLS_HDMV D_CELLS_JI3V D_CELLS_JIHD D_CELLS_JIHDLL D_CELLS_JIHDMT D_CELLS_JIHDMV D_CELLS_JIM3V D_CELLS_M3V DigitalLibs EXERCISE1 GATES_3V GATES_HD GATES_JI3V GATES_JIHD GATES_JIMT GATES_MT IO_CELLS_3V IO_CELLS_C1V8 IO_CELLS_C3V IO_CELLS_F3V IO_CELLS_FC1V8 IO_CELLS_FC3V IO_CELLS_JI3V IO_CELLS_JIF3V PRIMLIB TECH_XH018 TECH_XH018_HD US_8ths VLG_PRIMITIVES XFABLibs ahdlLib ambit analogLib avTech basic cdsDefTechLib connectLib functional ieee sample sbaLib std\\nsynopsys xfab_connectLib"
+\a nrSetWindowVisibility(copyViewForm "show")
+\a nrSetCurrentWindow(copyViewForm)
+\a nrResizeWindow(copyViewForm list(2183 32 468 671))
+\a copyViewForm->CopyToLibrary->value = "DAY3"
+\a copyViewForm->OK->value = t
+\o Beginning simple copy to library "DAY3".
+\o Processing files to be copied...
+\a nrSetCurrentWindow(workingDialogForm)
+\o ERROR (CLM-173): One or more of the following problems have occurred:\n      1. The source file does not exist.\n      2. A destination file will be overwritten.\n      3. A destination file is checked out.\n      4. A destination file is opened for edit.\n      5. A destination file conflicts with another.\n      6. A source library file is not valid in a different library.\n      7. A source OpenAccess cellview master file has zero size.
+\a nrSetWindowVisibility(copyProblemsDialog "show")
+\a nrSetCurrentWindow(copyProblemsDialog)
+\a nrResizeWindow(workingDialogForm list(2291 309 273 133))
+\a nrResizeWindow(copyProblemsDialog list(2015 155 825 441))
+\a copyProblemsDialog->OK->value = t
+\a nrSetCurrentWindow(copyViewForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(copyProblemsDialog list(2015 125 825 441))
+\a nrResizeWindow(workingDialogForm list(2291 339 273 133))
+\a nrResizeWindow(copyViewForm list(2193 10 468 671))
+\a workingDialogForm->Close->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\o Copy succeeded.
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a nrResizeWindow(workingDialogForm list(2291 309 273 133))
+\a cdsLibManager->libListBox->value = "DAY3"
+\a cdsLibManager->libLineEdit->value = "DAY3"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "TRANS"
+\a cdsLibManager->cellLineEdit->value = "TRANS"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
@@ -46,84 +190,15 @@
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_8"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_8"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S6_BIAS_1"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_1"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "S6_BIAS_1"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_1"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 7 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_1"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_1"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
 \a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S5_STATIC_LIN"
-\a cdsLibManager->cellLineEdit->value = "S5_STATIC_LIN"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S6_BIAS_2"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_2"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "S7_BLOCK"
-\a cdsLibManager->cellLineEdit->value = "S7_BLOCK"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = "schematic"
@@ -131,265 +206,115 @@
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 0 0)
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S6_BIAS_2"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_2"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "TRANS"
+\a cdsLibManager->cellLineEdit->value = "TRANS"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 24 6 2 "TRANS")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->CopyFromLibrary->value = "CHARACTERIZATION"
+\a copyCellForm->CopyToLibrary->value = "CHARACTERIZATION"
+\a copyCellForm->CopyFromLibrary->value = "DAY3"
+\a copyCellForm->CopyFromCell->value = "TRANS"
+\a copyCellForm->CopyToLibrary->value = "DAY3"
+\a copyCellForm->CopyToCell->value = "TRANS"
+\a copyCellForm->ViewsToCopy->value = "schematic"
+\a copyCellForm->SkipLibrariesEdit->value = ""
+\a copyCellForm->SkipLibrariesEdit->value = "CHARACTERIZATION CadenceLibs DAY1 DAY2 D_CELLS_3V D_CELLS_HD D_CELLS_HDLL D_CELLS_HDMT D_CELLS_HDMV D_CELLS_JI3V D_CELLS_JIHD D_CELLS_JIHDLL D_CELLS_JIHDMT D_CELLS_JIHDMV D_CELLS_JIM3V D_CELLS_M3V DigitalLibs EXERCISE1 GATES_3V GATES_HD GATES_JI3V GATES_JIHD GATES_JIMT GATES_MT IO_CELLS_3V IO_CELLS_C1V8 IO_CELLS_C3V IO_CELLS_F3V IO_CELLS_FC1V8 IO_CELLS_FC3V IO_CELLS_JI3V IO_CELLS_JIF3V PRIMLIB TECH_XH018 TECH_XH018_HD US_8ths VLG_PRIMITIVES XFABLibs ahdlLib ambit analogLib avTech basic cdsDefTechLib connectLib functional ieee sample sbaLib std\\nsynopsys xfab_connectLib"
+\a nrSetWindowVisibility(copyCellForm "show")
+\a nrSetCurrentWindow(copyCellForm)
+\a nrResizeWindow(copyCellForm list(2183 38 468 659))
+\a copyCellForm->CopyToCell->value = "TRANS_s"
+\a nrDialogAccept(copyCellForm)
+\a copyCellForm->OK->value = t
+\o Beginning simple copy to library "DAY3".
+\o Processing files to be copied...
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(2291 339 273 133))
+\a nrResizeWindow(copyCellForm list(2193 16 468 659))
+\o Copy succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "DAY3"
+\a cdsLibManager->libLineEdit->value = "DAY3"
+\a cdsLibManager->cellListBox->value = "TRANS"
+\a cdsLibManager->cellLineEdit->value = "TRANS"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a lmgrLogShowPopup("mainListPopup2" 55 10 2 "schematic")
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(2291 309 273 133))
+\a cdsLibManager->cellListBox->value = "TRANS_s"
+\a cdsLibManager->cellLineEdit->value = "TRANS_s"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 39 24 2 "TRANS_s")
 \a cdsLibManager->editDeleteButton->value = t
 \a deleteForm->deleteFilterEdit->value = "*"
 \a deleteForm->notDeleteFilterEdit->value = "*"
 \a nrSetWindowVisibility(deleteForm "show")
 \a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(2557 272 627 425))
+\a nrResizeWindow(deleteForm list(2114 193 627 425))
 \a deleteForm->OK->value = t
 \o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
 \a nrSetWindowVisibility(mcMBXDLG "show")
 \a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(2736 439 268 91))
+\a nrResizeWindow(mcMBXDLG list(2293 330 268 91))
 \a mcMBXDLG->pushButton1->value = t
-\o Deleting view "schematic" from cell "S6_BIAS_2" in library "EXERCISE1".
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrResizeWindow(workingDialogForm list(2736 418 268 133))
-\o Deleted cellview 'EXERCISE1/S6_BIAS_2/schematic'.
-\a nrSetCurrentWindow(deleteForm)
+\o Deleting cell "TRANS_s" from library "DAY3".
+\o Deleted cell 'DAY3/TRANS_s'.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\o Deletion of 1 view done.
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a nrResizeWindow(deleteForm list(2557 242 627 425))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_2"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_2"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(2736 388 268 133))
-\a cdsLibManager->cellListBox->value = "S6_BIAS_1"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_1"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a lmgrLogShowPopup("mainListPopup2" 41 25 2 "schematic")
-\a cdsLibManager->viewListBox->value = "constraint"
-\a cdsLibManager->viewLineEdit->value = "constraint"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_2"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_2"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_1"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_1"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_2"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_2"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 42 146 2 "S6_BIAS_2")
-\a cdsLibManager->editDeleteButton->value = t
-\a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(2557 272 627 425))
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(2736 439 268 91))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting cell "S6_BIAS_2" from library "EXERCISE1".
-\a nrResizeWindow(workingDialogForm list(2736 448 268 133))
-\o Deleted cell 'EXERCISE1/S6_BIAS_2'.
-\a nrSetCurrentWindow(deleteForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
 \o Deletion of 1 cell done.
-\a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
-\a nrResizeWindow(deleteForm list(2557 242 627 425))
+\a nrResizeWindow(workingDialogForm list(2299 339 268 133))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(2736 418 268 133))
-\a cdsLibManager->cellListBox->value = "S6_BIAS_1"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_1"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "DAY3"
+\a cdsLibManager->libLineEdit->value = "DAY3"
+\a cdsLibManager->cellListBox->value = "TRANS"
+\a cdsLibManager->cellLineEdit->value = "TRANS"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 27 127 2 "S6_BIAS_1")
-\a cdsLibManager->copySimpleButton->value = t
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a copyCellForm->CopyFromLibrary->value = "CHARACTERIZATION"
-\a copyCellForm->CopyToLibrary->value = "CHARACTERIZATION"
-\a copyCellForm->CopyFromLibrary->value = "EXERCISE1"
-\a copyCellForm->CopyFromCell->value = "S6_BIAS_1"
-\a copyCellForm->CopyToLibrary->value = "EXERCISE1"
-\a copyCellForm->CopyToCell->value = "S6_BIAS_1"
-\a copyCellForm->ViewsToCopy->value = "constraint schematic spectre_state1"
-\a copyCellForm->SkipLibrariesEdit->value = ""
-\a copyCellForm->SkipLibrariesEdit->value = "CHARACTERIZATION CadenceLibs D_CELLS_3V D_CELLS_HD D_CELLS_HDLL D_CELLS_HDMT D_CELLS_HDMV D_CELLS_JI3V D_CELLS_JIHD D_CELLS_JIHDLL D_CELLS_JIHDMT D_CELLS_JIHDMV D_CELLS_JIM3V D_CELLS_M3V DigitalLibs GATES_3V GATES_HD GATES_JI3V GATES_JIHD GATES_JIMT GATES_MT IO_CELLS_3V IO_CELLS_C1V8 IO_CELLS_C3V IO_CELLS_F3V IO_CELLS_FC1V8 IO_CELLS_FC3V IO_CELLS_JI3V IO_CELLS_JIF3V PRIMLIB TECH_XH018 TECH_XH018_HD US_8ths VLG_PRIMITIVES XFABLibs ahdlLib ambit analogLib avTech basic cdsDefTechLib connectLib functional ieee sample sbaLib std synopsys xfab_connectLib"
-\a nrSetWindowVisibility(copyCellForm "show")
-\a nrSetCurrentWindow(copyCellForm)
-\a nrResizeWindow(copyCellForm list(2636 155 468 659))
-\a copyCellForm->CopyToCell->value = "S6_BIAS_2"
-\a nrDialogAccept(copyCellForm)
-\a copyCellForm->OK->value = t
-\o Beginning simple copy to library "EXERCISE1".
-\o Processing files to be copied...
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "TRANS"
+\a cdsLibManager->cellLineEdit->value = "TRANS"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(2734 448 273 133))
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(copyCellForm list(2636 125 468 659))
-\o Copy succeeded.
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_1"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_1"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
+\a nrResizeWindow(deleteForm list(2114 133 627 425))
+\a nrResizeWindow(workingDialogForm list(2299 309 268 133))
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(2734 418 273 133))
-\a cdsLibManager->cellListBox->value = "S6_BIAS_2"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_2"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_2"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_2"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S6_BIAS_1"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_1"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "S6_BIAS_1"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_1"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_2"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_2"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_2"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_2"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S6_BIAS_3"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_3"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 29 156 2 "S6_BIAS_3")
-\a cdsLibManager->editDeleteButton->value = t
-\a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(2557 272 627 425))
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(2736 439 268 91))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting cell "S6_BIAS_3" from library "EXERCISE1".
-\o Deleted cell 'EXERCISE1/S6_BIAS_3'.
-\a nrSetCurrentWindow(deleteForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\o Deletion of 1 cell done.
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a nrResizeWindow(workingDialogForm list(2742 448 268 133))
-\a nrResizeWindow(deleteForm list(2557 242 627 425))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(2742 418 268 133))
-\a cdsLibManager->cellListBox->value = "S6_BIAS_2"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_2"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 43 146 2 "S6_BIAS_2")
+\a lmgrLogShowPopup("mainListPopup1" 41 10 2 "TRANS")
 \a cdsLibManager->copySimpleButton->value = t
 \a copyCellForm->SkipLibrariesEdit->value = "*"
 \a copyCellForm->ViewsToCopy->value = ""
@@ -399,34 +324,34 @@
 \a copyCellForm->CopyToLibrary->value = ""
 \a copyCellForm->CopyFromLibrary->value = "CHARACTERIZATION"
 \a copyCellForm->CopyToLibrary->value = "CHARACTERIZATION"
-\a copyCellForm->CopyFromLibrary->value = "EXERCISE1"
-\a copyCellForm->CopyFromCell->value = "S6_BIAS_2"
-\a copyCellForm->CopyToLibrary->value = "EXERCISE1"
-\a copyCellForm->CopyToCell->value = "S6_BIAS_2"
-\a copyCellForm->ViewsToCopy->value = "constraint schematic spectre_state1"
+\a copyCellForm->CopyFromLibrary->value = "DAY3"
+\a copyCellForm->CopyFromCell->value = "TRANS"
+\a copyCellForm->CopyToLibrary->value = "DAY3"
+\a copyCellForm->CopyToCell->value = "TRANS"
+\a copyCellForm->ViewsToCopy->value = "schematic"
 \a copyCellForm->SkipLibrariesEdit->value = ""
-\a copyCellForm->SkipLibrariesEdit->value = "CHARACTERIZATION CadenceLibs D_CELLS_3V D_CELLS_HD D_CELLS_HDLL D_CELLS_HDMT D_CELLS_HDMV D_CELLS_JI3V D_CELLS_JIHD D_CELLS_JIHDLL D_CELLS_JIHDMT D_CELLS_JIHDMV D_CELLS_JIM3V D_CELLS_M3V DigitalLibs GATES_3V GATES_HD GATES_JI3V GATES_JIHD GATES_JIMT GATES_MT IO_CELLS_3V IO_CELLS_C1V8 IO_CELLS_C3V IO_CELLS_F3V IO_CELLS_FC1V8 IO_CELLS_FC3V IO_CELLS_JI3V IO_CELLS_JIF3V PRIMLIB TECH_XH018 TECH_XH018_HD US_8ths VLG_PRIMITIVES XFABLibs ahdlLib ambit analogLib avTech basic cdsDefTechLib connectLib functional ieee sample sbaLib std synopsys xfab_connectLib"
+\a copyCellForm->SkipLibrariesEdit->value = "CHARACTERIZATION CadenceLibs DAY1 DAY2 D_CELLS_3V D_CELLS_HD D_CELLS_HDLL D_CELLS_HDMT D_CELLS_HDMV D_CELLS_JI3V D_CELLS_JIHD D_CELLS_JIHDLL D_CELLS_JIHDMT D_CELLS_JIHDMV D_CELLS_JIM3V D_CELLS_M3V DigitalLibs EXERCISE1 GATES_3V GATES_HD GATES_JI3V GATES_JIHD GATES_JIMT GATES_MT IO_CELLS_3V IO_CELLS_C1V8 IO_CELLS_C3V IO_CELLS_F3V IO_CELLS_FC1V8 IO_CELLS_FC3V IO_CELLS_JI3V IO_CELLS_JIF3V PRIMLIB TECH_XH018 TECH_XH018_HD US_8ths VLG_PRIMITIVES XFABLibs ahdlLib ambit analogLib avTech basic cdsDefTechLib connectLib functional ieee sample sbaLib std\\nsynopsys xfab_connectLib"
 \a nrSetCurrentWindow(copyCellForm)
-\a nrResizeWindow(copyCellForm list(2636 155 468 659))
-\a copyCellForm->CopyToCell->value = "S6_BIAS_3"
+\a nrResizeWindow(copyCellForm list(2183 38 468 659))
+\a copyCellForm->CopyToCell->value = "TRANS_S1"
 \a nrDialogAccept(copyCellForm)
 \a copyCellForm->OK->value = t
-\o Beginning simple copy to library "EXERCISE1".
+\o Beginning simple copy to library "DAY3".
 \o Processing files to be copied...
 \a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(2734 448 273 133))
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(copyCellForm list(2636 125 468 659))
+\a nrResizeWindow(workingDialogForm list(2291 339 273 133))
+\a nrResizeWindow(copyCellForm list(2183 8 468 659))
 \o Copy succeeded.
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_2"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_2"
+\a cdsLibManager->libListBox->value = "DAY3"
+\a cdsLibManager->libLineEdit->value = "DAY3"
+\a cdsLibManager->cellListBox->value = "TRANS"
+\a cdsLibManager->cellLineEdit->value = "TRANS"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -437,655 +362,337 @@
 \a cdsLibManager->viewListBox->value = nil
 \a copyCellForm->SkipLibrariesEdit->value = "*"
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(2734 418 273 133))
-\a cdsLibManager->cellListBox->value = "S6_BIAS_3"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_3"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_3"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_3"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S6_BIAS_4"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_4"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 25 176 2 "S6_BIAS_4")
+\a nrResizeWindow(workingDialogForm list(2291 309 273 133))
+\a lmgrLogShowPopup("mainListPopup1" 36 12 2 "TRANS")
 \a cdsLibManager->editDeleteButton->value = t
 \a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(2557 272 627 425))
+\a nrResizeWindow(deleteForm list(2114 193 627 425))
 \a deleteForm->OK->value = t
 \o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
 \a nrSetWindowVisibility(mcMBXDLG "show")
 \a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(2736 439 268 91))
+\a nrResizeWindow(mcMBXDLG list(2293 360 268 91))
 \a mcMBXDLG->pushButton1->value = t
-\o Deleting cell "S6_BIAS_4" from library "EXERCISE1".
-\o Deleted cell 'EXERCISE1/S6_BIAS_4'.
-\a nrSetCurrentWindow(deleteForm)
+\o Deleting cell "TRANS" from library "DAY3".
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cell 'DAY3/TRANS'.
 \o Deletion of 1 cell done.
-\a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
-\a nrResizeWindow(workingDialogForm list(2742 448 268 133))
-\a nrResizeWindow(deleteForm list(2557 242 627 425))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(2742 418 268 133))
-\a cdsLibManager->cellListBox->value = "S6_BIAS_5"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_5"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 42 181 2 "S6_BIAS_5")
-\a cdsLibManager->editDeleteButton->value = t
-\a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(2557 272 627 425))
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(2736 439 268 91))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting cell "S6_BIAS_5" from library "EXERCISE1".
-\a nrResizeWindow(workingDialogForm list(2736 448 268 133))
-\o Deleted cell 'EXERCISE1/S6_BIAS_5'.
-\a nrSetCurrentWindow(deleteForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\o Deletion of 1 cell done.
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a nrResizeWindow(deleteForm list(2557 242 627 425))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(2736 418 268 133))
-\a cdsLibManager->cellListBox->value = "S6_BIAS_6"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_6"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 45 180 2 "S6_BIAS_6")
-\a cdsLibManager->editDeleteButton->value = t
-\a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(2557 272 627 425))
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(2736 439 268 91))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting cell "S6_BIAS_6" from library "EXERCISE1".
-\a nrResizeWindow(workingDialogForm list(2736 448 268 133))
-\o Deleted cell 'EXERCISE1/S6_BIAS_6'.
-\a nrSetCurrentWindow(deleteForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\o Deletion of 1 cell done.
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a nrResizeWindow(deleteForm list(2557 242 627 425))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(2736 418 268 133))
-\a cdsLibManager->cellListBox->value = "S6_BIAS_3"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_3"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 31 165 2 "S6_BIAS_3")
-\a cdsLibManager->copySimpleButton->value = t
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a copyCellForm->ViewsToCopy->value = ""
-\a copyCellForm->CopyFromCell->value = ""
-\a copyCellForm->CopyToCell->value = ""
-\a copyCellForm->CopyFromLibrary->value = ""
-\a copyCellForm->CopyToLibrary->value = ""
-\a copyCellForm->CopyFromLibrary->value = "CHARACTERIZATION"
-\a copyCellForm->CopyToLibrary->value = "CHARACTERIZATION"
-\a copyCellForm->CopyFromLibrary->value = "EXERCISE1"
-\a copyCellForm->CopyFromCell->value = "S6_BIAS_3"
-\a copyCellForm->CopyToLibrary->value = "EXERCISE1"
-\a copyCellForm->CopyToCell->value = "S6_BIAS_3"
-\a copyCellForm->ViewsToCopy->value = "constraint schematic spectre_state1"
-\a copyCellForm->SkipLibrariesEdit->value = ""
-\a copyCellForm->SkipLibrariesEdit->value = "CHARACTERIZATION CadenceLibs D_CELLS_3V D_CELLS_HD D_CELLS_HDLL D_CELLS_HDMT D_CELLS_HDMV D_CELLS_JI3V D_CELLS_JIHD D_CELLS_JIHDLL D_CELLS_JIHDMT D_CELLS_JIHDMV D_CELLS_JIM3V D_CELLS_M3V DigitalLibs GATES_3V GATES_HD GATES_JI3V GATES_JIHD GATES_JIMT GATES_MT IO_CELLS_3V IO_CELLS_C1V8 IO_CELLS_C3V IO_CELLS_F3V IO_CELLS_FC1V8 IO_CELLS_FC3V IO_CELLS_JI3V IO_CELLS_JIF3V PRIMLIB TECH_XH018 TECH_XH018_HD US_8ths VLG_PRIMITIVES XFABLibs ahdlLib ambit analogLib avTech basic cdsDefTechLib connectLib functional ieee sample sbaLib std synopsys xfab_connectLib"
-\a nrSetCurrentWindow(copyCellForm)
-\a nrResizeWindow(copyCellForm list(2636 155 468 659))
-\a copyCellForm->CopyToCell->value = "S6_BIAS_4"
-\a nrDialogAccept(copyCellForm)
-\a copyCellForm->OK->value = t
-\o Beginning simple copy to library "EXERCISE1".
-\o Processing files to be copied...
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(2734 448 273 133))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(copyCellForm list(2636 125 468 659))
-\o Copy succeeded.
+\a nrResizeWindow(workingDialogForm list(2299 339 268 133))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "DAY3"
+\a cdsLibManager->libLineEdit->value = "DAY3"
+\a cdsLibManager->cellListBox->value = "TRANS_S1"
+\a cdsLibManager->cellLineEdit->value = "TRANS_S1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_3"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_3"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(2734 418 273 133))
-\a cdsLibManager->cellListBox->value = "S6_BIAS_4"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_4"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S6_BIAS_3"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_3"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S6_BIAS_4"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_4"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 68 179 2 "S6_BIAS_4")
-\a cdsLibManager->copySimpleButton->value = t
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a copyCellForm->ViewsToCopy->value = ""
-\a copyCellForm->CopyFromCell->value = ""
-\a copyCellForm->CopyToCell->value = ""
-\a copyCellForm->CopyFromLibrary->value = ""
-\a copyCellForm->CopyToLibrary->value = ""
-\a copyCellForm->CopyFromLibrary->value = "CHARACTERIZATION"
-\a copyCellForm->CopyToLibrary->value = "CHARACTERIZATION"
-\a copyCellForm->CopyFromLibrary->value = "EXERCISE1"
-\a copyCellForm->CopyFromCell->value = "S6_BIAS_4"
-\a copyCellForm->CopyToLibrary->value = "EXERCISE1"
-\a copyCellForm->CopyToCell->value = "S6_BIAS_4"
-\a copyCellForm->ViewsToCopy->value = "constraint schematic spectre_state1"
-\a copyCellForm->SkipLibrariesEdit->value = ""
-\a copyCellForm->SkipLibrariesEdit->value = "CHARACTERIZATION CadenceLibs D_CELLS_3V D_CELLS_HD D_CELLS_HDLL D_CELLS_HDMT D_CELLS_HDMV D_CELLS_JI3V D_CELLS_JIHD D_CELLS_JIHDLL D_CELLS_JIHDMT D_CELLS_JIHDMV D_CELLS_JIM3V D_CELLS_M3V DigitalLibs GATES_3V GATES_HD GATES_JI3V GATES_JIHD GATES_JIMT GATES_MT IO_CELLS_3V IO_CELLS_C1V8 IO_CELLS_C3V IO_CELLS_F3V IO_CELLS_FC1V8 IO_CELLS_FC3V IO_CELLS_JI3V IO_CELLS_JIF3V PRIMLIB TECH_XH018 TECH_XH018_HD US_8ths VLG_PRIMITIVES XFABLibs ahdlLib ambit analogLib avTech basic cdsDefTechLib connectLib functional ieee sample sbaLib std synopsys xfab_connectLib"
-\a nrSetCurrentWindow(copyCellForm)
-\a nrResizeWindow(copyCellForm list(2636 155 468 659))
-\a copyCellForm->CopyToCell->value = "S6_BIAS_5"
-\a nrDialogAccept(copyCellForm)
-\a copyCellForm->OK->value = t
-\o Beginning simple copy to library "EXERCISE1".
-\o Processing files to be copied...
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(2734 448 273 133))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(copyCellForm list(2636 125 468 659))
-\o Copy succeeded.
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_4"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_4"
+\a cdsLibManager->cellListBox->value = "TRANS_S1"
+\a cdsLibManager->cellLineEdit->value = "TRANS_S1"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(2734 418 273 133))
-\a cdsLibManager->cellListBox->value = "S6_BIAS_5"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_5"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S6_BIAS_4"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_4"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S6_BIAS_7"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_7"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 21 212 2 "S6_BIAS_7")
-\a cdsLibManager->editDeleteButton->value = t
-\a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(2557 272 627 425))
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(2736 439 268 91))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting cell "S6_BIAS_7" from library "EXERCISE1".
-\o Deleted cell 'EXERCISE1/S6_BIAS_7'.
-\a nrSetCurrentWindow(deleteForm)
-\a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(workingDialogForm)
-\o Deletion of 1 cell done.
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a nrResizeWindow(workingDialogForm list(2742 448 268 133))
-\a nrResizeWindow(deleteForm list(2557 242 627 425))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(2742 418 268 133))
-\a cdsLibManager->cellListBox->value = "S6_BIAS_8"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_8"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 32 210 2 "S6_BIAS_8")
-\a cdsLibManager->cellListBox->value = "S6_BIAS_8_1"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_8_1"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_5"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_5"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 23 193 2 "S6_BIAS_5")
-\a cdsLibManager->copySimpleButton->value = t
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a copyCellForm->ViewsToCopy->value = ""
-\a copyCellForm->CopyFromCell->value = ""
-\a copyCellForm->CopyToCell->value = ""
-\a copyCellForm->CopyFromLibrary->value = ""
-\a copyCellForm->CopyToLibrary->value = ""
-\a copyCellForm->CopyFromLibrary->value = "CHARACTERIZATION"
-\a copyCellForm->CopyToLibrary->value = "CHARACTERIZATION"
-\a copyCellForm->CopyFromLibrary->value = "EXERCISE1"
-\a copyCellForm->CopyFromCell->value = "S6_BIAS_5"
-\a copyCellForm->CopyToLibrary->value = "EXERCISE1"
-\a copyCellForm->CopyToCell->value = "S6_BIAS_5"
-\a copyCellForm->ViewsToCopy->value = "constraint schematic spectre_state1"
-\a copyCellForm->SkipLibrariesEdit->value = ""
-\a copyCellForm->SkipLibrariesEdit->value = "CHARACTERIZATION CadenceLibs D_CELLS_3V D_CELLS_HD D_CELLS_HDLL D_CELLS_HDMT D_CELLS_HDMV D_CELLS_JI3V D_CELLS_JIHD D_CELLS_JIHDLL D_CELLS_JIHDMT D_CELLS_JIHDMV D_CELLS_JIM3V D_CELLS_M3V DigitalLibs GATES_3V GATES_HD GATES_JI3V GATES_JIHD GATES_JIMT GATES_MT IO_CELLS_3V IO_CELLS_C1V8 IO_CELLS_C3V IO_CELLS_F3V IO_CELLS_FC1V8 IO_CELLS_FC3V IO_CELLS_JI3V IO_CELLS_JIF3V PRIMLIB TECH_XH018 TECH_XH018_HD US_8ths VLG_PRIMITIVES XFABLibs ahdlLib ambit analogLib avTech basic cdsDefTechLib connectLib functional ieee sample sbaLib std synopsys xfab_connectLib"
-\a nrSetCurrentWindow(copyCellForm)
-\a nrResizeWindow(copyCellForm list(2636 155 468 659))
-\a copyCellForm->CopyToCell->value = "S6_BIAS_6"
-\a nrDialogAccept(copyCellForm)
-\a copyCellForm->OK->value = t
-\o Beginning simple copy to library "EXERCISE1".
-\o Processing files to be copied...
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(2734 448 273 133))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(copyCellForm list(2636 125 468 659))
-\o Copy succeeded.
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_5"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_5"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(2734 418 273 133))
-\a cdsLibManager->cellListBox->value = "S6_BIAS_6"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_6"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S6_BIAS_5"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_5"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_6"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_6"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_5"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_5"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_6"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_6"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_5"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_5"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S6_BIAS_6"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_6"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 28 217 2 "S6_BIAS_6")
-\a cdsLibManager->copySimpleButton->value = t
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a copyCellForm->ViewsToCopy->value = ""
-\a copyCellForm->CopyFromCell->value = ""
-\a copyCellForm->CopyToCell->value = ""
-\a copyCellForm->CopyFromLibrary->value = ""
-\a copyCellForm->CopyToLibrary->value = ""
-\a copyCellForm->CopyFromLibrary->value = "CHARACTERIZATION"
-\a copyCellForm->CopyToLibrary->value = "CHARACTERIZATION"
-\a copyCellForm->CopyFromLibrary->value = "EXERCISE1"
-\a copyCellForm->CopyFromCell->value = "S6_BIAS_6"
-\a copyCellForm->CopyToLibrary->value = "EXERCISE1"
-\a copyCellForm->CopyToCell->value = "S6_BIAS_6"
-\a copyCellForm->ViewsToCopy->value = "constraint schematic spectre_state1"
-\a copyCellForm->SkipLibrariesEdit->value = ""
-\a copyCellForm->SkipLibrariesEdit->value = "CHARACTERIZATION CadenceLibs D_CELLS_3V D_CELLS_HD D_CELLS_HDLL D_CELLS_HDMT D_CELLS_HDMV D_CELLS_JI3V D_CELLS_JIHD D_CELLS_JIHDLL D_CELLS_JIHDMT D_CELLS_JIHDMV D_CELLS_JIM3V D_CELLS_M3V DigitalLibs GATES_3V GATES_HD GATES_JI3V GATES_JIHD GATES_JIMT GATES_MT IO_CELLS_3V IO_CELLS_C1V8 IO_CELLS_C3V IO_CELLS_F3V IO_CELLS_FC1V8 IO_CELLS_FC3V IO_CELLS_JI3V IO_CELLS_JIF3V PRIMLIB TECH_XH018 TECH_XH018_HD US_8ths VLG_PRIMITIVES XFABLibs ahdlLib ambit analogLib avTech basic cdsDefTechLib connectLib functional ieee sample sbaLib std synopsys xfab_connectLib"
-\a nrSetCurrentWindow(copyCellForm)
-\a nrResizeWindow(copyCellForm list(2636 155 468 659))
-\a copyCellForm->CopyToCell->value = "S6_BIAS_7"
-\a nrDialogAccept(copyCellForm)
-\a copyCellForm->OK->value = t
-\o Beginning simple copy to library "EXERCISE1".
-\o Processing files to be copied...
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(2734 448 273 133))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(copyCellForm list(2636 125 468 659))
-\o Copy succeeded.
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_6"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_6"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(2734 418 273 133))
-\a cdsLibManager->cellListBox->value = "S6_BIAS_7"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_7"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S6_BIAS_8"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_8"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_7"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_7"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_8"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_8"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 46 246 2 "S6_BIAS_8")
-\a cdsLibManager->editDeleteButton->value = t
-\a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(2557 272 627 425))
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(2736 439 268 91))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting cell "S6_BIAS_8" from library "EXERCISE1".
-\o Deleted cell 'EXERCISE1/S6_BIAS_8'.
-\a nrSetCurrentWindow(deleteForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\o Deletion of 1 cell done.
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a nrResizeWindow(workingDialogForm list(2742 448 268 133))
-\a nrResizeWindow(deleteForm list(2557 242 627 425))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(2742 418 268 133))
-\a cdsLibManager->cellListBox->value = "S6_BIAS_8_1"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_8_1"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_7"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_7"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 34 234 2 "S6_BIAS_7")
-\a cdsLibManager->copySimpleButton->value = t
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a copyCellForm->ViewsToCopy->value = ""
-\a copyCellForm->CopyFromCell->value = ""
-\a copyCellForm->CopyToCell->value = ""
-\a copyCellForm->CopyFromLibrary->value = ""
-\a copyCellForm->CopyToLibrary->value = ""
-\a copyCellForm->CopyFromLibrary->value = "CHARACTERIZATION"
-\a copyCellForm->CopyToLibrary->value = "CHARACTERIZATION"
-\a copyCellForm->CopyFromLibrary->value = "EXERCISE1"
-\a copyCellForm->CopyFromCell->value = "S6_BIAS_7"
-\a copyCellForm->CopyToLibrary->value = "EXERCISE1"
-\a copyCellForm->CopyToCell->value = "S6_BIAS_7"
-\a copyCellForm->ViewsToCopy->value = "constraint schematic spectre_state1"
-\a copyCellForm->SkipLibrariesEdit->value = ""
-\a copyCellForm->SkipLibrariesEdit->value = "CHARACTERIZATION CadenceLibs D_CELLS_3V D_CELLS_HD D_CELLS_HDLL D_CELLS_HDMT D_CELLS_HDMV D_CELLS_JI3V D_CELLS_JIHD D_CELLS_JIHDLL D_CELLS_JIHDMT D_CELLS_JIHDMV D_CELLS_JIM3V D_CELLS_M3V DigitalLibs GATES_3V GATES_HD GATES_JI3V GATES_JIHD GATES_JIMT GATES_MT IO_CELLS_3V IO_CELLS_C1V8 IO_CELLS_C3V IO_CELLS_F3V IO_CELLS_FC1V8 IO_CELLS_FC3V IO_CELLS_JI3V IO_CELLS_JIF3V PRIMLIB TECH_XH018 TECH_XH018_HD US_8ths VLG_PRIMITIVES XFABLibs ahdlLib ambit analogLib avTech basic cdsDefTechLib connectLib functional ieee sample sbaLib std synopsys xfab_connectLib"
-\a nrSetCurrentWindow(copyCellForm)
-\a nrResizeWindow(copyCellForm list(2636 155 468 659))
-\a copyCellForm->CopyToCell->value = "S6_BIAS_8"
-\a nrDialogAccept(copyCellForm)
-\a copyCellForm->OK->value = t
-\o Beginning simple copy to library "EXERCISE1".
-\o Processing files to be copied...
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(2734 448 273 133))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(copyCellForm list(2636 125 468 659))
-\o Copy succeeded.
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "EXERCISE1"
-\a cdsLibManager->libLineEdit->value = "EXERCISE1"
-\a cdsLibManager->cellListBox->value = "S6_BIAS_7"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_7"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(2734 418 273 133))
-\a cdsLibManager->cellListBox->value = "S6_BIAS_8"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_8"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S7_BLOCK"
-\a cdsLibManager->cellLineEdit->value = "S7_BLOCK"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrResizeWindow(deleteForm list(2114 163 627 425))
+\a nrResizeWindow(workingDialogForm list(2299 309 268 133))
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "S6_BIAS_8_1"
-\a cdsLibManager->cellLineEdit->value = "S6_BIAS_8_1"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "DAY3"
+\a cdsLibManager->libLineEdit->value = "DAY3"
+\a cdsLibManager->cellListBox->value = "TRANS_S1"
+\a cdsLibManager->cellLineEdit->value = "TRANS_S1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "TRANS_S1"
+\a cdsLibManager->cellLineEdit->value = "TRANS_S1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
 \a nrSetWindowVisibility(cdsLibManager "hide")
-\a _lmgrCloseIconify("cdsLibManager" 1)
 \a nrSetWindowVisibility(cdsLibManager "show")
-\a nrResizeWindow(cdsLibManager list(2073 0 1173 464))
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "DAY3"
+\a cdsLibManager->libLineEdit->value = "DAY3"
+\a cdsLibManager->cellListBox->value = "TRANS_S1"
+\a cdsLibManager->cellLineEdit->value = "TRANS_S1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "TRANS_S1"
+\a cdsLibManager->cellLineEdit->value = "TRANS_S1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "DAY3"
+\a cdsLibManager->libLineEdit->value = "DAY3"
+\a cdsLibManager->cellListBox->value = "TRANS_S1"
+\a cdsLibManager->cellLineEdit->value = "TRANS_S1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "TRANS_S1"
+\a cdsLibManager->cellLineEdit->value = "TRANS_S1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "DAY1"
+\a cdsLibManager->libLineEdit->value = "DAY1"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "nmos_bias_test"
+\a cdsLibManager->cellLineEdit->value = "nmos_bias_test"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "DAY2"
+\a cdsLibManager->libLineEdit->value = "DAY2"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "TRANS"
+\a cdsLibManager->cellLineEdit->value = "TRANS"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "DAY3"
+\a cdsLibManager->libLineEdit->value = "DAY3"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "TRANS_S2"
+\a cdsLibManager->cellLineEdit->value = "TRANS_S2"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TRANS_S1"
+\a cdsLibManager->cellLineEdit->value = "TRANS_S1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TRANS_S2"
+\a cdsLibManager->cellLineEdit->value = "TRANS_S2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "DAY3"
+\a cdsLibManager->libLineEdit->value = "DAY3"
+\a cdsLibManager->cellListBox->value = "TRANS_S2"
+\a cdsLibManager->cellLineEdit->value = "TRANS_S2"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TRANS_S2_STATIC_LIN"
+\a cdsLibManager->cellLineEdit->value = "TRANS_S2_STATIC_LIN"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "DAY3"
+\a cdsLibManager->libLineEdit->value = "DAY3"
+\a cdsLibManager->cellListBox->value = "TRANS_S2_STATIC_LIN"
+\a cdsLibManager->cellLineEdit->value = "TRANS_S2_STATIC_LIN"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "DAY3"
+\a cdsLibManager->libLineEdit->value = "DAY3"
+\a cdsLibManager->cellListBox->value = "TRANS_S2_STATIC_LIN"
+\a cdsLibManager->cellLineEdit->value = "TRANS_S2_STATIC_LIN"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TRANS_S3_STATIC_LIN"
+\a cdsLibManager->cellLineEdit->value = "TRANS_S3_STATIC_LIN"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
 \o MPS service: shutdown
 \o libManager is exiting.
 \a exit(0)

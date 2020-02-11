@@ -1,17 +1,6 @@
-;====================== Set to XL mode =========================================
-ocnSetXLMode()
-ocnxlProjectDir( "./Sim" )
-ocnxlTargetCellView( "EXERCISE1" "S5_STATIC_LIN" "adexl" )
-ocnxlResultsLocation( "" )
-ocnxlSimResultsLocation( "" )
-ocnxlMaxJobFail( 20 )
-
-;====================== Tests setup ============================================
-
-;---------- Test "EXERCISE1:S5_STATIC_LIN:1" ------------- 
-ocnxlBeginTest("EXERCISE1:S5_STATIC_LIN:1")
 simulator( 'spectre )
-design( "EXERCISE1" "S5_STATIC_LIN" "schematic")
+design(	 "/home/saul/Sim/TRANS/spectre/schematic/netlist/netlist")
+resultsDir( "/home/saul/Sim/TRANS/spectre/schematic" )
 modelFile( 
     '("/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/config.scs" "default")
     '("/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/param.scs" "3s")
@@ -22,74 +11,21 @@ modelFile(
     '("/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/photo.scs" "tm")
     '("/pkg/xfab/XKIT/xh018/cadence/v8_0/spectre/v8_0_1/lpmos/res.scs" "tm")
 )
-analysis('pz ?p ""  ?n ""  ?oprobe "/IPRB0"  
-		?iprobe "/I5"  ?porti "1"  )
-analysis('dc ?saveOppoint t  ?param "IS_DC"  ?start "-8u"  
-		?stop "8u"  ?step ".1u"  )
-analysis('ac ?start "100"  ?stop "300M"  ?dec "10"  )
-desVar(	  "IS_DC" 0	)
-desVar(	  "R1" 100k	)
-desVar(	  "R2" 400	)
+analysis('ac ?start "0.1"  ?stop "100M"  ?dec "20"  )
+analysis('pz ?p "/OUT"  ?iprobe "/I1"  ?param "gm1"  
+		?start "0"  ?stop "1.576m"  ?step ".05m"  )
+desVar(	  "IT" 0	)
 desVar(	  "IS" 1	)
+desVar(	  "cdb1" 148f	)
+desVar(	  "cds1" 229f	)
+desVar(	  "cgd1" 33f	)
+desVar(	  "cgs1" 478f	)
+desVar(	  "gm1" 1.57m	)
+desVar(	  "rds1" 579k	)
 envOption(
-	'firstRun  t 
-	'analysisOrder  list("dc" "ac" "pz" "dcmatch" "stb" "tran" "envlp" "lf" "noise" "xf" "sp" "pss" "pac" "pstb" "pnoise" "pxf" "psp" "qpss" "qpac" "qpnoise" "qpxf" "qpsp" "hb" "hbac" "hbstb" "hbnoise" "hbxf" "sens" "acmatch") 
+	'analysisOrder  list("ac" "pz") 
 )
-option( ?categ 'turboOpts
-	'apsplus  t 
-	'uniMode  "APS" 
-)
-save( 'i "/IPRB0/MINUS" )
 temp( 27 ) 
-ocnxlOutputTerminal( "/IPRB0/MINUS" ?plot t ?save t)
-ocnxlOutputExpr( "pzFrequencyAndRealFilter(getData(\"zeros\" ?result \"pz\"))" ?name "Zeros" ?plot t)
-ocnxlOutputExpr( "pzFrequencyAndRealFilter(getData(\"poles\" ?result \"pz\"))" ?name "Poles" ?plot t)
-ocnxlOutputExpr( "deriv(IS(\"/IPRB0/MINUS\"))" ?plot t ?evalType 'point)
-ocnxlEndTest() ; "EXERCISE1:S5_STATIC_LIN:1"
-
-;====================== Sweeps setup ===========================================
-ocnxlSweepVar("IS_DC" "0")
-ocnxlSweepVar("R1" "100k")
-ocnxlSweepVar("R2" "400")
-ocnxlSweepVar("IS" "1")
-
-;====================== Model Group setup ==========================================
-
-;====================== Corners setup ==========================================
-
-;====================== Checks and Asserts setup ============================================
-ocnxlPutChecksAsserts(?netlist nil)
-
-;====================== Job setup ==============================================
-ocnxlJobSetup( '(
-	"blockemail" "1"
-	"configuretimeout" "300"
-	"distributionmethod" "Local"
-	"jobruntype" "ICRP"
-	"estimatememoryvalue" ""
-	"lingertimeout" "300"
-	"maxjobs" "1"
-	"name" "ADE XL Default"
-	"preemptivestart" "1"
-	"reconfigureimmediately" "1"
-	"runtimeout" "-1"
-	"showerrorwhenretrying" "1"
-	"showoutputlogerror" "0"
-	"startmaxjobsimmed" "1"
-	"starttimeout" "300"
-	"usesameprocess" "1"
-) )
-
-;====================== Disabled items =========================================
-
-;====================== Run Mode Options ======================================
-
-;====================== Starting Point Info ======================================
-
-;====================== Run command ============================================
-ocnxlRun( ?mode 'sweepsAndCorners ?nominalCornerEnabled t ?allCornersEnabled t ?allSweepsEnabled t)
-ocnxlOutputSummary(?exprSummary t ?specSummary t ?detailed t ?wave t)
-ocnxlOpenResults()
-
-;====================== End XL Mode command ===================================
-ocnxlEndXLMode()
+run()
+selectResult( 'ac )
+plot(getData("/OUT") )

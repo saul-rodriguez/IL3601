@@ -1,36 +1,36 @@
-\# Program start time:     UTC 2020.01.15 06:01:32.843
-\# Local time: CET (UTC+01:00) 2020.01.15 07:01:32.843
+\# Program start time:     UTC 2020.02.11 08:22:25.521
+\# Local time: CET (UTC+01:00) 2020.02.11 09:22:25.521
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 10/08/2019 20:07 (sjfhw316) $
 \o Hierarchy:		/pkg/cadence/installs/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.7  (64-bit addresses)
-\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso4509 -mpshost s2424 -davinciService DaVinciService_4509_1579068083 -log /home/saul/projects/test_xfab1/logs_saul/logs0/Job1.log -licenseLockFileName /home/saul/projects/test_xfab1/.tmp_saul/.s2424_4509 -interactiveA -interactiveE -interactiveRTT -nostdin -nograph -axlChildIdFlag 1
+\# Command line:	/pkg/cadence/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso23051 -mpshost s2424 -davinciService DaVinciService_23051_1581409336 -log /home/saul/projects/test_xfab1/logs_saul/logs0/Job1.log -licenseLockFileName /home/saul/projects/test_xfab1/.tmp_saul/.s2424_23051 -interactiveA -interactiveE -interactiveRTT -nostdin -nograph -axlChildIdFlag 1
 \# Host name (type):	s2424 (x86_64)
-\# Operating system:	Linux 3.10.0-1062.4.3.el7.x86_64 #1 SMP Wed Nov 13 23:58:53 UTC 2019
+\# Operating system:	Linux 3.10.0-1062.9.1.el7.x86_64 #1 SMP Fri Dec 6 15:49:49 UTC 2019
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
 \# X display name (WxH):	:95 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			RealVNC Ltd (VNC nograph server, PID 8939)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 27102)
 \# Depth of Visual (Root):	16 (16)
 \# Number of Planes Used:	16
 \# X version:		11.0 (vendor release 3370)
-\# X resource pool:	base 0x3800000, mask 0x3fffff (4194303), shift 0
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
 \# 			current id 0x0, current max 0x3ffffa (4194298)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        517 MB
-\# Available memory:	     38,145 MB
+\# Initial sbrk value:	        513 MB
+\# Available memory:	     33,333 MB
 \# System memory:	     96,361 MB
-\# Maximum memory size:	     95,983 MB
-\# Max mem available:	     38,283 MB
-\# Initial memory used:	        139 MB
+\# Maximum memory size:	     96,005 MB
+\# Max mem available:	     33,489 MB
+\# Initial memory used:	        157 MB
 \#        process size:	      1,378 MB
 \# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 32.00/32.00
 \# Qt version:		5.9.1
 \# Window Manager:	other
 \# User Name:		saul
 \o Working Directory:	s2424:/home/saul/projects/test_xfab1
-\# Process Id:		10003
+\# Process Id:		27371
 \o 
 \o COPYRIGHT (C) 1992-2019  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2019  UNIX SYSTEMS Laboratories INC.,
@@ -72,12 +72,12 @@
 \o 
 \o Loading cli.cxt 
 \o Loading cle.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso4509, host=s2424). ICRP is turned on. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\# Memory report: using         304 MB, process size 1,605 MB at UTC 2020.02.11 08:22:29.100
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso23051, host=s2424). ICRP is turned on. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 10003 within 90 seconds is being processed...
-\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
-\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 1 seconds.
-\# Memory report: using         312 MB, process size 1,626 MB at UTC 2020.01.15 06:01:35.695
+\o INFO (ELI-00304) The registration of the child 27371 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 1 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 2 seconds.
 \o Loading .cdsinit for the XH018 X-Fab XKit.
 \o     LOAD xh018_1151 SPECIFIC CALL-BACK ROUTINES
 \o     LOAD ALL AVAILABLE P-CELL FUNCTIONS
@@ -108,6 +108,7 @@
 \o Loading msgHandler.cxt 
 \o Loading AMSOSS.cxt 
 \o Loading AMS.cxt 
+\# Memory report: using         421 MB, process size 1,715 MB at UTC 2020.02.11 08:22:31.000
 \o  --> Finished setting the required PDK definitions
 \o  --> Setting the recommended EDA tool defaults...
 \o  --> Finished setting the recommended EDA tool defaults
@@ -125,14 +126,14 @@
 \o *Info*    Configuring the session ...
 \o 
 \o 	Library      = CHARACTERIZATION
-\o 	Cell         = DC_BIAS_NMOS
+\o 	Cell         = NOISE_NMOS
 \o 	View         = schematic
 \o 	Netlist  	  = nil
 \o 	Simulator    = spectre
 \o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = CHARACTERIZATION:DC_BIAS_NMOS:1_CHARACTERIZATION:DC_BIAS_NMOS:1_Jan_15_07_01_23_2020_Ocean.12
-\o 	Results DB   = /home/saul/projects/test_xfab1/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.12.rdb
-\o 	Setup DB loc = /home/saul/projects/test_xfab1/CHARACTERIZATION/DC_BIAS_NMOS/adexl
+\o 	State Name   = CHARACTERIZATION:NOISE_NMOS:1_CHARACTERIZATION:NOISE_NMOS:1_Feb_11_09_22_16_2020_Ocean.31
+\o 	Results DB   = /home/saul/projects/test_xfab1/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.31.rdb
+\o 	Setup DB loc = /home/saul/projects/test_xfab1/CHARACTERIZATION/NOISE_NMOS/adexl
 \o 
 \o 
 \o INFO (TECH-150003): The technology database "analogLib" has been automatically
@@ -159,34 +160,36 @@
 \o 
 \o 
 \o 
-\o *Info*    Run start for Point ID (0 9) on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:1 ].
+\o *Info*    Run start for Point ID (0 1) on testbench [
+\o           CHARACTERIZATION:NOISE_NMOS:1 ].
 \o 
 \o Resetting statistical vars
 \o 
 \o *Info*    Setting parameter values ...
 \o 
-\o Setting var VDS = "0.8"
-\o Setting var VGS = "1"
+\o Setting var IDS = "0.0001"
+\o Setting var L = "1e-6"
+\o Setting var NF = "10"
+\o Setting var VDS = "0.5"
+\o Setting var WF = "10e-6"
 \o Setting temp(T) = 27
-\# Memory report: using         426 MB, process size 1,741 MB at UTC 2020.01.15 06:01:38.086
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.12/9/CHARACTERIZATION:DC_BIAS_NMOS:1/netlist
+\o           /home/saul/Sim/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.31/1/CHARACTERIZATION:NOISE_NMOS:1/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.12/9/CHARACTERIZATION:DC_BIAS_NMOS:1
+\o           /home/saul/Sim/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.31/1/CHARACTERIZATION:NOISE_NMOS:1
 \o 
 \o 
-\o *Info*    Creating Netlist for Point ID (0 9)
+\o *Info*    Creating Netlist for Point ID (0 1)
 \o 
 \o generate netlist...
 \o Loading seCore.cxt 
 \o function ansCdlCompPrim redefined
 \o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Jan 15 07:01:38 2020
-\o End netlisting Jan 15 07:01:38 2020
+\o Begin Incremental Netlisting Feb 11 09:22:32 2020
+\o End netlisting Feb 11 09:22:32 2020
 \o 
 \o 	The netlist is up to date.
 \o 	Time taken to compare the design with netlist:   0.0s
@@ -195,9 +198,9 @@
 \o       ...successful.
 \o 
 \o *Info*    Running simulation on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:1 ] for Point ID (0 9).
+\o           CHARACTERIZATION:NOISE_NMOS:1 ] for Point ID (0 1).
 \o 
-\o Delete psf data in /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.12/9/CHARACTERIZATION:DC_BIAS_NMOS:1/psf.
+\o Delete psf data in /home/saul/Sim/CHARACTERIZATION/NOISE_NMOS/adexl/results/data/Ocean.31/1/CHARACTERIZATION:NOISE_NMOS:1/psf.
 \o simulate...
 \o INFO (ADE-3071): Simulation completed successfully.
 \o reading simulation data...
@@ -205,73 +208,16 @@
 \o *Info*    Client has finished evaluating ... 
 \o 
 \o 
-\o *Info*    Run complete for Point ID (0 9) on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:1 ].
+\o *Info*    Run complete for Point ID (0 1) on testbench [
+\o           CHARACTERIZATION:NOISE_NMOS:1 ].
 \o 
 \o 
 \o 
 \o 
 \o 
-\o 
-\o 
-\o 
-\o 
-\o 
-\o *Info*    Run start for Point ID (0 17) on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:1 ].
-\o 
-\o Resetting statistical vars
-\o 
-\o *Info*    Setting parameter values ...
-\o 
-\o Setting var VDS = "1.6"
-\o 
-\o *Info*    Netlist Directory =
-\o           /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.12/17/CHARACTERIZATION:DC_BIAS_NMOS:1/netlist
-\o 
-\o 
-\o *Info*    Data Directory    =
-\o           /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.12/17/CHARACTERIZATION:DC_BIAS_NMOS:1
-\o 
-\o 
-\o *Info*    Creating Netlist for Point ID (0 17)
-\o 
-\o generate netlist...
-\o function ansCdlCompPrim redefined
-\o function ansCdlCompPrim redefined
-\o Begin Incremental Netlisting Jan 15 07:01:39 2020
-\o End netlisting Jan 15 07:01:39 2020
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o 
-\o *Info*    Running simulation on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:1 ] for Point ID (0 17).
-\o 
-\o Delete psf data in /home/saul/Sim/CHARACTERIZATION/DC_BIAS_NMOS/adexl/results/data/Ocean.12/17/CHARACTERIZATION:DC_BIAS_NMOS:1/psf.
-\o simulate...
-\o INFO (ADE-3071): Simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\o *Info*    Client has finished evaluating ... 
-\o 
-\o 
-\o *Info*    Run complete for Point ID (0 17) on testbench [
-\o           CHARACTERIZATION:DC_BIAS_NMOS:1 ].
-\o 
-\o 
-\o 
-\o 
-\o 
-\# Available memory:         35,286 MB at UTC 2020.01.15 06:01:43.160
-\# Memory report: Maximum memory size now 35,722 MB at UTC 2020.01.15 06:01:43.160
-\# Thread usage report: 33 active threads, active load 1.00 at UTC 2020.01.15 06:01:43.160
 \o 
 \o *Info*    Received signal SIGTERM.
 \o 
 \o 
-\# Memory report: on exit            436 MB, process size 1,776 MB at UTC 2020.01.15 06:01:43.642
-\# Memory report: peak usage         436 MB, process size 1,776 MB
+\# Memory report: on exit            455 MB, process size 1,777 MB at UTC 2020.02.11 08:22:36.644
+\# Memory report: peak usage         455 MB, process size 1,777 MB

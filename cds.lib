@@ -24,3 +24,6 @@ INCLUDE ./xh018_combine.lib
 # Add user specific libraries below this line 
 DEFINE CHARACTERIZATION /home/saul/projects/test_xfab1/CHARACTERIZATION
 DEFINE EXERCISE1 /home/saul/projects/test_xfab1/EXERCISE1
+DEFINE DAY1 /home/saul/projects/test_xfab1/DAY1
+DEFINE DAY2 /home/saul/projects/test_xfab1/DAY2
+DEFINE DAY3 /home/saul/projects/test_xfab1/DAY3
